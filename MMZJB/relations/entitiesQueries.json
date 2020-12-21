@@ -1,0 +1,16 @@
+{
+	"EN_CLIENTEXN_689": {
+		"queries": {
+			"Q_CLIEENNT_KK23": {
+				"$ref": "../SSMMJ/queries/Q_CLIEENNT_KK23.json#"
+			}
+		}
+	},
+	"EN_PERSONAHF_537": {
+		"queries": {
+			"Q_PERSANOO_FF85": {
+				"$ref": "../SSMMJ/queries/Q_PERSANOO_FF85.json#"
+			}
+		}
+	}
+}

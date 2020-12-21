@@ -1,0 +1,14 @@
+{
+	"MMZJB": {
+		"LBL_MMZJB_APELLIDOO_38493": "Apellido",
+		"LBL_MMZJB_CEDULALDF_63438": "Cedula",
+		"LBL_MMZJB_GENEROVWQ_11955": "Genero",
+		"LBL_MMZJB_GUARDARLZ_91123": "Guardar",
+		"LBL_MMZJB_INSERTARR_19718": "Insertar",
+		"LBL_MMZJB_NACIONAII_27843": "Nacionalidad",
+		"LBL_MMZJB_NOMBREEWP_24425": "nombre",
+		"LBL_MMZJB_NOMBREKRP_59149": "Nombre",
+		"LBL_MMZJB_TELEFONOO_68649": "Telefono",
+		"MSG_MMZJB_NUMEROINO_39406": "Numero Incorrecto"
+	}
+}

@@ -1,0 +1,102 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "C"
+		},
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "25160"
+		}
+	],
+	"name": "CLI_consulta_cliente",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI5776_cli_consulta_cliente",
+	"patternName": "CLI_consulta_cliente",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "8119d260-944f-4a2d-9104-93d37066de04",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": false,
+			"numberQuery": 1,
+			"queryName": "SELECT \"id\"=cl_id,\r\n              \"nombre\"=cl_nombre,\r\n              \"apellido\"=cl_apellido,\r\n              \"telefono\"=cl_telefono\r\n              FROM"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "8119d260-944f-4a2d-9104-93d37066de04",
+			"columns": [
+				{
+					"attributeId": "AT45_IDCLIEEE689",
+					"entityId": "EN_CLIENTEXN_689",
+					"format": "",
+					"name": "id",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT43_NOMBREIW689",
+					"entityId": "EN_CLIENTEXN_689",
+					"format": "",
+					"name": "nombre",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT31_APELLIOD689",
+					"entityId": "EN_CLIENTEXN_689",
+					"format": "",
+					"name": "apellido",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT61_TELEFOON689",
+					"entityId": "EN_CLIENTEXN_689",
+					"format": "",
+					"name": "telefono",
+					"position": 4,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": false
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_CLIENTEXN_689",
+			"module": {
+				"moduleId": "MMZJB",
+				"moduleName": "Main"
+			},
+			"name": "Cliente"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.sp_cliente_taller",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

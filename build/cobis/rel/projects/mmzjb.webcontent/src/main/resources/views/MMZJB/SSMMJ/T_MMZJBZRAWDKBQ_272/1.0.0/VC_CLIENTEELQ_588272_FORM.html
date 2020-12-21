@@ -1,0 +1,30 @@
+<!-- Designer Generator v 7.2.0 - SPR 2020-20 08/10/2020 -->
+<html>
+ <head></head>
+ <body>
+  <div id="bc_VC_CLIENTEELQ_588272" class="cb-breadcrumb" ng-if="!vc.isModal(this) && !vc.isDetailGrid(this) && !isDesignerInclude" ng-class="vc.viewState.VC_CLIENTEELQ_588272.style"> 
+   <ol class="breadcrumb"> 
+    <li>Inicio</li> 
+    <li ng-repeat="breadcrumb in breadcrumbs.get() track by breadcrumb.path" ng-class="{ active: !$last }"> {{ breadcrumb.label | translate }} </li> 
+   </ol> 
+  </div> 
+  <!-- Inicio item VW_CLIENTETWV_623--> 
+  <div id="VC_CLIENTEELQ_588272" ng-keydown="vc.viewState.keyDown($event)" class=" cb-view-container-root cb-view-container cb-group-layout" ng-class="{'container':!vc.isModal(this) && !vc.isDetailGrid(this) && !isDesignerInclude && true, 'container-fluid':vc.isModal(this) || isDesignerInclude || false, 'cb-invisible': !vc.loaded}"> 
+   <div id="G_CLIENTETRJ_716623" ng-show="vc.viewState.G_CLIENTETRJ_716623.visible" ng-class="vc.viewState.G_CLIENTETRJ_716623.style" class="cb-group cb-group-simple"> 
+    <div kendo-validator="G_CLIENTETRJ_716623" k-options="validatorOptions" id="G_CLIENTETRJ_716623_VAL"> 
+     <div id="QV_RL23_CYN42" kendo-ext-grid="grids.QV_RL23_CYN42" k-data-source="vc.model.Cliente" k-column-menu="false" k-sortable="false" k-pageable="{refresh: false, pageSizes: false, buttonCount: 5}" k-editable="vc.grids.QV_RL23_CYN42.editable" k-toolbar="vc.grids.QV_RL23_CYN42.toolbar" k-resizable="false" k-groupable="false" k-reorderable="false" k-filterable="false" k-scrollable="true" k-selectable="false" k-data-bound="vc.grids.QV_RL23_CYN42.events.dataBound" k-columns="vc.grids.QV_RL23_CYN42.columns" k-cancel="vc.grids.QV_RL23_CYN42.events.cancel" k-edit="vc.grids.QV_RL23_CYN42.events.edit" ng-class="vc.viewState.QV_RL23_CYN42.style" k-ng-delay="vc.afterInitData"></div> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- Fin item VW_CLIENTETWV_623--> 
+  <div class="cb-view-loading cb-view-loading-preload"> 
+   <div class="cb-view-loading-icon"></div> 
+  </div> 
+  <div class="cb-navbar cb-navbar-bottom" ng-if="vc.childVc && vc.autoSyncNavigation"> 
+   <nav ng-class="vc.getCssClass('',['navbar', 'navbar-default'] ,{'navbar-fixed-bottom': (!vc.isModal(this) && !vc.isDetailGrid(this))})"> 
+    <button id="T_MMZJBZRAWDKBQ_272_ACCEPT" class="btn btn-primary navbar-btn" ng-click="vc.accept(validator, $event, false, 'VC_CLIENTEELQ_588272')" ng-disabled="vc.viewState.T_MMZJBZRAWDKBQ_272_ACCEPT.disabled || vc.viewState.T_MMZJBZRAWDKBQ_272_ACCEPT.disabledingroup" ng-show="vc.viewState.T_MMZJBZRAWDKBQ_272_ACCEPT.visible" ng-class="vc.viewState.T_MMZJBZRAWDKBQ_272_ACCEPT.style">{{'DSGNR.SYS_DSGNR_LBLACEPT0_00007'|translate}}</button> 
+    <button id="T_MMZJBZRAWDKBQ_272_CANCEL" class="btn btn-default navbar-btn" ng-click="vc.cancel(validator, $event)" ng-disabled="vc.viewState.T_MMZJBZRAWDKBQ_272_CANCEL.disabled || vc.viewState.T_MMZJBZRAWDKBQ_272_CANCEL.disabledingroup" ng-show="vc.viewState.T_MMZJBZRAWDKBQ_272_CANCEL.visible" ng-class="vc.viewState.T_MMZJBZRAWDKBQ_272_CANCEL.style">{{'DSGNR.SYS_DSGNR_LBLCANCEL_00006'|translate}}</button> 
+   </nav> 
+  </div>
+ </body>
+</html>

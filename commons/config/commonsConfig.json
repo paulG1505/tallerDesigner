@@ -1,0 +1,20 @@
+{
+    "dataSources": [
+        "SYBCTS",
+        "SYBCIS",
+        "SYBDSRC"
+    ],
+    "generationSettings": {
+        "customEventImpl": "Custom",
+        "customEventImplPath": "{projectPath}\\build"
+    },
+    "publishParams": {
+        "localConfig": {
+            "dir": "C:\\COBIS_HOME_WEB1"
+        },
+        "publishMode": {
+            "webFiles": true
+        },
+        "publishType": "local"
+    }
+}

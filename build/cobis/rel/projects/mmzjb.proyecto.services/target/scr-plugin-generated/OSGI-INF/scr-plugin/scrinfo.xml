@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component enabled="true" name="com.cobiscorp.cobis.mmzjb.services.T_MMZJBOCOGRIDN_472">
+        <implementation class="com.cobiscorp.cobis.mmzjb.services.T_MMZJBOCOGRIDN_472"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.cobis.mmzjb.services.T_MMZJBOCOGRIDN_472"/>
+        </service>
+        <property name="service.pid" value="com.cobiscorp.cobis.mmzjb.services.T_MMZJBOCOGRIDN_472" private="false"/>
+        <reference name="formEventBuilder" interface="com.cobiscorp.designer.api.builder.FormEventBuilder" cardinality="0..n" policy="dynamic" target="(&amp;(task.module=MMZJB)(task.submodule=SSMMJ)(task.id=T_MMZJBOCOGRIDN_472)(task.version=1.0.0))" bind="addFormEventBuilder" unbind="removeFormEventBuilder" checked="true" strategy="event"/>
+        <reference name="VW_PERSONAFCZ_284" interface="com.cobiscorp.designer.api.builder.ViewEventBuilder" cardinality="0..n" policy="dynamic" target="(&amp;(view.id=VW_PERSONAFCZ_284)(view.version=1.0.0))" bind="addViewEventBuilder" unbind="removeViewEventBuilder" checked="true" strategy="event"/>
+        <reference name="LoadCatalogCobis" interface="com.cobiscorp.designer.api.customization.ILoadCatalogCobis" cardinality="0..n" policy="dynamic" bind="addLoadCatalogCobis" unbind="removeLoadCatalogCobis" checked="true" strategy="event"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.mmzjb.services.T_MMZJBPDCNINOQ_466">
+        <implementation class="com.cobiscorp.cobis.mmzjb.services.T_MMZJBPDCNINOQ_466"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.cobis.mmzjb.services.T_MMZJBPDCNINOQ_466"/>
+        </service>
+        <property name="service.pid" value="com.cobiscorp.cobis.mmzjb.services.T_MMZJBPDCNINOQ_466" private="false"/>
+        <reference name="formEventBuilder" interface="com.cobiscorp.designer.api.builder.FormEventBuilder" cardinality="0..n" policy="dynamic" target="(&amp;(task.module=MMZJB)(task.submodule=SSMMJ)(task.id=T_MMZJBPDCNINOQ_466)(task.version=1.0.0))" bind="addFormEventBuilder" unbind="removeFormEventBuilder" checked="true" strategy="event"/>
+        <reference name="VW_EMLZNEADPO_478" interface="com.cobiscorp.designer.api.builder.ViewEventBuilder" cardinality="0..n" policy="dynamic" target="(&amp;(view.id=VW_EMLZNEADPO_478)(view.version=1.0.0))" bind="addViewEventBuilder" unbind="removeViewEventBuilder" checked="true" strategy="event"/>
+        <reference name="QV_RD85_WCU72" interface="com.cobiscorp.designer.api.builder.QueryViewEventBuilder" cardinality="0..n" policy="dynamic" target="(queryView.id=QV_RD85_WCU72)" bind="addQueyViewEventBuilder" unbind="removeQueyViewEventBuilder" checked="true" strategy="event"/>
+        <reference name="Q_PERSANOO_FF85" interface="com.cobiscorp.designer.api.builder.QueryEventBuilder" cardinality="0..n" policy="dynamic" target="(&amp;(query.id=Q_PERSANOO_FF85)(query.version=1.0.0))" bind="addQueryEventBuilder" unbind="removeQueryEventBuilder" checked="true" strategy="event"/>
+        <reference name="LoadCatalogCobis" interface="com.cobiscorp.designer.api.customization.ILoadCatalogCobis" cardinality="0..n" policy="dynamic" bind="addLoadCatalogCobis" unbind="removeLoadCatalogCobis" checked="true" strategy="event"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.mmzjb.services.T_MMZJBTFBVPWTC_111">
+        <implementation class="com.cobiscorp.cobis.mmzjb.services.T_MMZJBTFBVPWTC_111"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.cobis.mmzjb.services.T_MMZJBTFBVPWTC_111"/>
+        </service>
+        <property name="service.pid" value="com.cobiscorp.cobis.mmzjb.services.T_MMZJBTFBVPWTC_111" private="false"/>
+        <reference name="formEventBuilder" interface="com.cobiscorp.designer.api.builder.FormEventBuilder" cardinality="0..n" policy="dynamic" target="(&amp;(task.module=MMZJB)(task.submodule=SSMMJ)(task.id=T_MMZJBTFBVPWTC_111)(task.version=1.0.0))" bind="addFormEventBuilder" unbind="removeFormEventBuilder" checked="true" strategy="event"/>
+        <reference name="VW_CLIENTEACL_646" interface="com.cobiscorp.designer.api.builder.ViewEventBuilder" cardinality="0..n" policy="dynamic" target="(&amp;(view.id=VW_CLIENTEACL_646)(view.version=1.0.0))" bind="addViewEventBuilder" unbind="removeViewEventBuilder" checked="true" strategy="event"/>
+        <reference name="LoadCatalogCobis" interface="com.cobiscorp.designer.api.customization.ILoadCatalogCobis" cardinality="0..n" policy="dynamic" bind="addLoadCatalogCobis" unbind="removeLoadCatalogCobis" checked="true" strategy="event"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.mmzjb.services.T_MMZJBZRAWDKBQ_272">
+        <implementation class="com.cobiscorp.cobis.mmzjb.services.T_MMZJBZRAWDKBQ_272"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.cobis.mmzjb.services.T_MMZJBZRAWDKBQ_272"/>
+        </service>
+        <property name="service.pid" value="com.cobiscorp.cobis.mmzjb.services.T_MMZJBZRAWDKBQ_272" private="false"/>
+        <reference name="formEventBuilder" interface="com.cobiscorp.designer.api.builder.FormEventBuilder" cardinality="0..n" policy="dynamic" target="(&amp;(task.module=MMZJB)(task.submodule=SSMMJ)(task.id=T_MMZJBZRAWDKBQ_272)(task.version=1.0.0))" bind="addFormEventBuilder" unbind="removeFormEventBuilder" checked="true" strategy="event"/>
+        <reference name="VW_CLIENTETWV_623" interface="com.cobiscorp.designer.api.builder.ViewEventBuilder" cardinality="0..n" policy="dynamic" target="(&amp;(view.id=VW_CLIENTETWV_623)(view.version=1.0.0))" bind="addViewEventBuilder" unbind="removeViewEventBuilder" checked="true" strategy="event"/>
+        <reference name="QV_RL23_CYN42" interface="com.cobiscorp.designer.api.builder.QueryViewEventBuilder" cardinality="0..n" policy="dynamic" target="(queryView.id=QV_RL23_CYN42)" bind="addQueyViewEventBuilder" unbind="removeQueyViewEventBuilder" checked="true" strategy="event"/>
+        <reference name="Q_CLIEENNT_KK23" interface="com.cobiscorp.designer.api.builder.QueryEventBuilder" cardinality="0..n" policy="dynamic" target="(&amp;(query.id=Q_CLIEENNT_KK23)(query.version=1.0.0))" bind="addQueryEventBuilder" unbind="removeQueryEventBuilder" checked="true" strategy="event"/>
+        <reference name="LoadCatalogCobis" interface="com.cobiscorp.designer.api.customization.ILoadCatalogCobis" cardinality="0..n" policy="dynamic" bind="addLoadCatalogCobis" unbind="removeLoadCatalogCobis" checked="true" strategy="event"/>
+    </scr:component>
+</components>

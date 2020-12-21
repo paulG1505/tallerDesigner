@@ -1,0 +1,151 @@
+{
+	"CompositeForms": {
+	},
+	"Entities": {
+		"EN_CLIENTEXN_689": {
+			"labels": [
+			]
+		},
+		"EN_PERSONAHF_537": {
+			"labels": [
+			]
+		}
+	},
+	"Forms": {
+		"T_MMZJBOCOGRIDN_472": {
+			"blis": [
+				"BLI5163_bli_ingresopersona"
+			],
+			"entities": {
+				"EN_PERSONAHF_537": [
+					"AT33_APELLIDD537",
+					"AT46_NOMBRELV537",
+					"AT56_TELEFOOO537",
+					"AT66_SEXOXTUC537"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_MMZJB_APELLIDOO_38493",
+				"LBL_MMZJB_GENEROVWQ_11955",
+				"LBL_MMZJB_INSERTARR_19718",
+				"LBL_MMZJB_NOMBREKRP_59149",
+				"LBL_MMZJB_TELEFONOO_68649",
+				"MSG_MMZJB_NUMEROINO_39406"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		},
+		"T_MMZJBPDCNINOQ_466": {
+			"blis": [
+				"BLI5819_bli_getpersonas"
+			],
+			"entities": {
+				"EN_PERSONAHF_537": [
+					"AT24_IDPERSAN537",
+					"AT33_APELLIDD537",
+					"AT46_NOMBRELV537",
+					"AT56_TELEFOOO537"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+			],
+			"queries": {
+				"Q_PERSANOO_FF85": [
+					"QM_PERSA55O5F559_03",
+					"QM_PERSAOF88F481_02",
+					"QM_PERSAONFNO822_04",
+					"QM_PERSAONO88351_01"
+				]
+			},
+			"subForms": [
+			]
+		},
+		"T_MMZJBTFBVPWTC_111": {
+			"blis": [
+				"BLI6154_bli_cliente"
+			],
+			"entities": {
+				"EN_CLIENTEXN_689": [
+					"AT31_APELLIOD689",
+					"AT43_NOMBREIW689",
+					"AT49_NACIONDL689",
+					"AT61_TELEFOON689",
+					"AT80_CEDULAXG689"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_MMZJB_APELLIDOO_38493",
+				"LBL_MMZJB_CEDULALDF_63438",
+				"LBL_MMZJB_GUARDARLZ_91123",
+				"LBL_MMZJB_NACIONAII_27843",
+				"LBL_MMZJB_NOMBREKRP_59149",
+				"LBL_MMZJB_TELEFONOO_68649"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		},
+		"T_MMZJBZRAWDKBQ_272": {
+			"blis": [
+				"BLI5776_cli_consulta_cliente"
+			],
+			"entities": {
+				"EN_CLIENTEXN_689": [
+					"AT31_APELLIOD689",
+					"AT43_NOMBREIW689",
+					"AT45_IDCLIEEE689",
+					"AT61_TELEFOON689"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+			],
+			"queries": {
+				"Q_CLIEENNT_KK23": [
+					"QM_CLIEE2K3NK947_05",
+					"QM_CLIEEKN3KN594_01",
+					"QM_CLIEENN32K346_02",
+					"QM_CLIEETKKNK687_03"
+				]
+			},
+			"subForms": [
+			]
+		}
+	},
+	"Queries": {
+		"Q_CLIEENNT_KK23": {
+			"labels": [
+			]
+		},
+		"Q_PERSANOO_FF85": {
+			"labels": [
+			]
+		}
+	}
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component enabled="true" name="com.cobiscorp.cobis.mmzjb.customevents.form.T_MMZJBOCOGRIDN_472_FormEventCECM_010CM_TMMZJBOC_SC6_924">
+        <implementation class="com.cobiscorp.cobis.mmzjb.customevents.form.T_MMZJBOCOGRIDN_472_FormEventCECM_010CM_TMMZJBOC_SC6_924"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.builder.FormEventBuilder"/>
+        </service>
+        <property name="task.module" type="String" value="MMZJB"/>
+        <property name="task.submodule" type="String" value="SSMMJ"/>
+        <property name="task.id" type="String" value="T_MMZJBOCOGRIDN_472"/>
+        <property name="task.version" type="String" value="1.0.0"/>
+        <property name="eventId" type="String" value="CECM_010CM_TMMZJBOC_SC6_924"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.mmzjb.customevents.form.T_MMZJBOCOGRIDN_472_FormEventCECM_010CM_TMMZJBOC_SC6_924"/>
+        <reference name="iExecuteCommandCM_TMMZJBOC_SC6" interface="com.cobiscorp.designer.api.customization.IExecuteCommand" cardinality="1..1" policy="dynamic" target="(&amp;(task.module=MMZJB)(task.submodule=SSMMJ)(task.id=T_MMZJBOCOGRIDN_472)(task.version=1.0.0)(task.controlId=CM_TMMZJBOC_SC6))" bind="setiExecuteCommandCM_TMMZJBOC_SC6" unbind="unsetiExecuteCommandCM_TMMZJBOC_SC6"/>
+        <reference name="bLI5163_bli_ingresopersona" interface="com.cobiscorp.designer.bli.api.IBLIExecutor" cardinality="1..1" policy="static" target="(bli.id=BLI5163_bli_ingresopersona)" bind="setBLI5163_bli_ingresopersona" unbind="unsetBLI5163_bli_ingresopersona"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.mmzjb.customevents.form.T_MMZJBTFBVPWTC_111_FormEventCECM_010CM_TMMZJBTF_J1T_597">
+        <implementation class="com.cobiscorp.cobis.mmzjb.customevents.form.T_MMZJBTFBVPWTC_111_FormEventCECM_010CM_TMMZJBTF_J1T_597"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.builder.FormEventBuilder"/>
+        </service>
+        <property name="task.module" type="String" value="MMZJB"/>
+        <property name="task.submodule" type="String" value="SSMMJ"/>
+        <property name="task.id" type="String" value="T_MMZJBTFBVPWTC_111"/>
+        <property name="task.version" type="String" value="1.0.0"/>
+        <property name="eventId" type="String" value="CECM_010CM_TMMZJBTF_J1T_597"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.mmzjb.customevents.form.T_MMZJBTFBVPWTC_111_FormEventCECM_010CM_TMMZJBTF_J1T_597"/>
+        <reference name="iExecuteCommandCM_TMMZJBTF_J1T" interface="com.cobiscorp.designer.api.customization.IExecuteCommand" cardinality="1..1" policy="dynamic" target="(&amp;(task.module=MMZJB)(task.submodule=SSMMJ)(task.id=T_MMZJBTFBVPWTC_111)(task.version=1.0.0)(task.controlId=CM_TMMZJBTF_J1T))" bind="setiExecuteCommandCM_TMMZJBTF_J1T" unbind="unsetiExecuteCommandCM_TMMZJBTF_J1T"/>
+        <reference name="bLI6154_bli_cliente" interface="com.cobiscorp.designer.bli.api.IBLIExecutor" cardinality="1..1" policy="static" target="(bli.id=BLI6154_bli_cliente)" bind="setBLI6154_bli_cliente" unbind="unsetBLI6154_bli_cliente"/>
+    </scr:component>
+</components>

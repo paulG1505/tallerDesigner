@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component enabled="true" name="com.cobiscorp.cobis.mmzjb.customevents.query.Q_CLIEENNT_KK23_QueryEvent">
+        <implementation class="com.cobiscorp.cobis.mmzjb.customevents.query.Q_CLIEENNT_KK23_QueryEvent"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.builder.QueryEventBuilder"/>
+        </service>
+        <property name="query.id" type="String" value="Q_CLIEENNT_KK23"/>
+        <property name="query.version" type="String" value="1.0.0"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.mmzjb.customevents.query.Q_CLIEENNT_KK23_QueryEvent"/>
+        <reference name="iExecuteQueryQ_CLIEENNT_KK23" interface="com.cobiscorp.designer.api.customization.IExecuteQuery" cardinality="1..1" policy="dynamic" target="(&amp;(query.version=1.0.0)(query.id=Q_CLIEENNT_KK23))" bind="setiExecuteQueryQ_CLIEENNT_KK23" unbind="unsetiExecuteQueryQ_CLIEENNT_KK23"/>
+        <reference name="bLI5776_cli_consulta_cliente" interface="com.cobiscorp.designer.bli.api.IBLIExecutor" cardinality="1..1" policy="static" target="(bli.id=BLI5776_cli_consulta_cliente)" bind="setBLI5776_cli_consulta_cliente" unbind="unsetBLI5776_cli_consulta_cliente"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.mmzjb.customevents.query.Q_PERSANOO_FF85_QueryEvent">
+        <implementation class="com.cobiscorp.cobis.mmzjb.customevents.query.Q_PERSANOO_FF85_QueryEvent"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.builder.QueryEventBuilder"/>
+        </service>
+        <property name="query.id" type="String" value="Q_PERSANOO_FF85"/>
+        <property name="query.version" type="String" value="1.0.0"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.mmzjb.customevents.query.Q_PERSANOO_FF85_QueryEvent"/>
+        <reference name="iExecuteQueryQ_PERSANOO_FF85" interface="com.cobiscorp.designer.api.customization.IExecuteQuery" cardinality="1..1" policy="dynamic" target="(&amp;(query.version=1.0.0)(query.id=Q_PERSANOO_FF85))" bind="setiExecuteQueryQ_PERSANOO_FF85" unbind="unsetiExecuteQueryQ_PERSANOO_FF85"/>
+        <reference name="bLI5819_bli_getpersonas" interface="com.cobiscorp.designer.bli.api.IBLIExecutor" cardinality="1..1" policy="static" target="(bli.id=BLI5819_bli_getpersonas)" bind="setBLI5819_bli_getpersonas" unbind="unsetBLI5819_bli_getpersonas"/>
+    </scr:component>
+</components>

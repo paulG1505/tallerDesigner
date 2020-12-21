@@ -1,0 +1,56 @@
+{
+	"APP_PROYECTOTZR_887": {
+		"externalModules": {
+		},
+		"forms": {
+			"MMZJB": [
+				{
+					"generated": 4,
+					"moduleId": "MMZJB",
+					"name": "FormPersona",
+					"subModuleId": "SSMMJ",
+					"taskId": "T_MMZJBOCOGRIDN_472",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "MMZJB",
+					"name": "FormConsulta",
+					"subModuleId": "SSMMJ",
+					"taskId": "T_MMZJBPDCNINOQ_466",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "MMZJB",
+					"name": "FormCliente",
+					"subModuleId": "SSMMJ",
+					"taskId": "T_MMZJBTFBVPWTC_111",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "MMZJB",
+					"name": "FormConsultaCliente",
+					"subModuleId": "SSMMJ",
+					"taskId": "T_MMZJBZRAWDKBQ_272",
+					"type": "Simple form"
+				}
+			]
+		},
+		"generate": {
+			"categoryName": "Cobiscorp",
+			"customEventImpl": "Custom",
+			"customEventImplPath": "{projectPath}\\build",
+			"displayName": "Proyecto",
+			"mode": "Development",
+			"type": "HTML5"
+		},
+		"id": "APP_PROYECTOTZR_887",
+		"mainPortletTaskId": "T_MMZJBOCOGRIDN_472",
+		"modules": [
+			"MMZJB"
+		],
+		"name": "Proyecto"
+	}
+}

@@ -1,0 +1,17 @@
+cmd.exe
+/X
+/C
+""C:\Program Files\Java\jdk1.8.0_251\jre\..\bin\javadoc.exe" @options @argfile"
+C:\Users\AdminCMC\Documents\Designer\ProyectoTaller\build\cobis\rel\projects\mmzjb.customevents.query.impl\target\apidocs\allclasses-frame.html = 1608582923790
+C:\Users\AdminCMC\Documents\Designer\ProyectoTaller\build\cobis\rel\projects\mmzjb.customevents.query.impl\target\apidocs\allclasses-noframe.html = 1608582923792
+C:\Users\AdminCMC\Documents\Designer\ProyectoTaller\build\cobis\rel\projects\mmzjb.customevents.query.impl\target\apidocs\argfile = 1608582922938
+C:\Users\AdminCMC\Documents\Designer\ProyectoTaller\build\cobis\rel\projects\mmzjb.customevents.query.impl\target\apidocs\constant-values.html = 1608582923769
+C:\Users\AdminCMC\Documents\Designer\ProyectoTaller\build\cobis\rel\projects\mmzjb.customevents.query.impl\target\apidocs\deprecated-list.html = 1608582923789
+C:\Users\AdminCMC\Documents\Designer\ProyectoTaller\build\cobis\rel\projects\mmzjb.customevents.query.impl\target\apidocs\help-doc.html = 1608582923795
+C:\Users\AdminCMC\Documents\Designer\ProyectoTaller\build\cobis\rel\projects\mmzjb.customevents.query.impl\target\apidocs\index-all.html = 1608582923786
+C:\Users\AdminCMC\Documents\Designer\ProyectoTaller\build\cobis\rel\projects\mmzjb.customevents.query.impl\target\apidocs\index.html = 1608582923793
+C:\Users\AdminCMC\Documents\Designer\ProyectoTaller\build\cobis\rel\projects\mmzjb.customevents.query.impl\target\apidocs\options = 1608582922938
+C:\Users\AdminCMC\Documents\Designer\ProyectoTaller\build\cobis\rel\projects\mmzjb.customevents.query.impl\target\apidocs\overview-tree.html = 1608582923783
+C:\Users\AdminCMC\Documents\Designer\ProyectoTaller\build\cobis\rel\projects\mmzjb.customevents.query.impl\target\apidocs\package-list = 1608582923753
+C:\Users\AdminCMC\Documents\Designer\ProyectoTaller\build\cobis\rel\projects\mmzjb.customevents.query.impl\target\apidocs\script.js = 1608582923798
+C:\Users\AdminCMC\Documents\Designer\ProyectoTaller\build\cobis\rel\projects\mmzjb.customevents.query.impl\target\apidocs\stylesheet.css = 1608582923797

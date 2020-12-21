@@ -1,0 +1,16 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "CM_TMMZJBTF_J1T",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "",
+		"eventsType": "commandEventType"
+	}
+]
