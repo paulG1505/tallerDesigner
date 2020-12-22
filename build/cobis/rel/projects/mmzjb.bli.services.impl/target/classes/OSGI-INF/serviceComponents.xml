@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component enabled="true" name="com.cobiscorp.cobis.mmzjb.bli.services.impl.BLI1532_bli_updatepersona">
+        <implementation class="com.cobiscorp.cobis.mmzjb.bli.services.impl.BLI1532_bli_updatepersona"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.bli.api.IBLIExecutor"/>
+        </service>
+        <property name="task.module" type="String" value="MMZJB"/>
+        <property name="bli.id" type="String" value="BLI1532_bli_updatepersona"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.mmzjb.bli.services.impl.BLI1532_bli_updatepersona"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.mmzjb.bli.services.impl.BLI3462_bli_update_cliente">
+        <implementation class="com.cobiscorp.cobis.mmzjb.bli.services.impl.BLI3462_bli_update_cliente"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.bli.api.IBLIExecutor"/>
+        </service>
+        <property name="task.module" type="String" value="MMZJB"/>
+        <property name="bli.id" type="String" value="BLI3462_bli_update_cliente"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.mmzjb.bli.services.impl.BLI3462_bli_update_cliente"/>
+    </scr:component>
     <scr:component enabled="true" name="com.cobiscorp.cobis.mmzjb.bli.services.impl.BLI5163_bli_ingresopersona">
         <implementation class="com.cobiscorp.cobis.mmzjb.bli.services.impl.BLI5163_bli_ingresopersona"/>
         <service servicefactory="false">

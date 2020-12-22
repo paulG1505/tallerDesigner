@@ -7,6 +7,14 @@
 				{
 					"generated": 4,
 					"moduleId": "MMZJB",
+					"name": "FormFiltro",
+					"subModuleId": "SSMMJ",
+					"taskId": "T_MMZJBJPYGFBPO_294",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "MMZJB",
 					"name": "FormPersona",
 					"subModuleId": "SSMMJ",
 					"taskId": "T_MMZJBOCOGRIDN_472",

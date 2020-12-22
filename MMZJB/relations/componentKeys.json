@@ -3,6 +3,9 @@
 		"EN_CLIENTEXN_689": {
 			"name": "Cliente"
 		},
+		"EN_FILTROBRU_224": {
+			"name": "FiltroBusquedaPersona"
+		},
 		"EN_PERSONAHF_537": {
 			"name": "Persona"
 		}
@@ -11,6 +14,9 @@
 		"CompositeForms": {
 		},
 		"Forms": {
+			"T_MMZJBJPYGFBPO_294": {
+				"name": "FormFiltro"
+			},
 			"T_MMZJBOCOGRIDN_472": {
 				"name": "FormPersona"
 			},

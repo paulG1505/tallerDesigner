@@ -1,6 +1,6 @@
 /*
  * Archivo: T_MMZJBPDCNINOQ_466.java
- * Fecha: 2020-12-21T20:31:11Z
+ * Fecha: 2020-12-22T19:20:09Z
  *
  * Esta aplicacion es parte de los paquetes bancarios propiedad de COBISCORP.
  * Su uso no autorizado queda expresamente prohibido asi como cualquier

@@ -44,9 +44,6 @@ public class ClienteQuery_Q_CLIEENNT_KK23 implements IExecuteQuery {
 			if (logger.isDebugEnabled()) {
 				logger.logDebug("Start executeDataEvent in ClienteQuery_Q_CLIEENNT_KK23");
 			}
-			 if (arg0.getEntityList("Cliente") != null){
-        return arg0.getEntityList("Cliente").getDataList();
-			 }		
 		} catch (Exception ex) {
 			DesignerManagerException.handleException(arg1.getMessageManager(), ex, logger);
 		}

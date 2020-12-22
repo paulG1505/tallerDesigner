@@ -76,13 +76,14 @@
 						"queryView": {
 							"actionDesign": "Button",
 							"actions": [
-								"Create"
+								"Create",
+								"Update"
 							],
 							"allowPaging": true,
 							"allowPagingStr": "T",
 							"allowSorting": false,
 							"allowSortingStr": "F",
-							"autoSync": null,
+							"autoSync": false,
 							"componentStyle": null,
 							"confirmRowDeletion": false,
 							"confirmRowDeletionStr": "F",
@@ -93,10 +94,10 @@
 							"customUrlDialog": null,
 							"deleteCommandEnabled": false,
 							"deleteCommandEnabledStr": "F",
-							"dialogTitleLabelId": null,
-							"editCommandEnabled": false,
-							"editCommandEnabledStr": "F",
-							"editMode": "0",
+							"dialogTitleLabelId": "LBL_MMZJB_REGISTROO_76697",
+							"editCommandEnabled": true,
+							"editCommandEnabledStr": "T",
+							"editMode": "3",
 							"entityName": {
 								"$ref": "../../../../MMZJB/entities/EN_PERSONAHF_537.json#/name"
 							},
@@ -104,17 +105,19 @@
 							"hasDetailString": "F",
 							"height": null,
 							"includeQueryMembers": [
-								"AT24_IDPERSAN537",
-								"AT33_APELLIDD537",
 								"AT46_NOMBRELV537",
-								"AT56_TELEFOOO537"
+								"AT66_SEXOXTUC537",
+								"AT97_ESTADOUB537",
+								"AT33_APELLIDD537",
+								"AT56_TELEFOOO537",
+								"AT24_IDPERSAN537"
 							],
 							"insertCommandEnabled": true,
 							"insertCommandEnabledStr": "T",
 							"isCustomized": false,
-							"modalSize": null,
+							"modalSize": "md",
 							"modeSelection": "None",
-							"moduleIdDialog": null,
+							"moduleIdDialog": "MMZJB",
 							"multiSelectEnabledStr": "F",
 							"name": "QV_RD85_WCU72",
 							"options": 0,
@@ -130,10 +133,10 @@
 							"queryViewType": "Grid",
 							"rowCommandAppearance": 0,
 							"style": null,
-							"subModuleIdDialog": null,
-							"taskIdDialog": null,
-							"taskVersionDialog": null,
-							"typeFormDialog": null,
+							"subModuleIdDialog": "SSMMJ",
+							"taskIdDialog": "T_MMZJBOCOGRIDN_472",
+							"taskVersionDialog": "1.0.0",
+							"typeFormDialog": "forms",
 							"userControl": {
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",
@@ -142,7 +145,7 @@
 								"type": "I",
 								"userControlId": "Grid"
 							},
-							"viewContainerIdDialog": null
+							"viewContainerIdDialog": "VC_PERSONAHWD_681472"
 						},
 						"queryViewId": "QV_RD85_WCU72",
 						"responsiveLayouts": null,
@@ -150,6 +153,43 @@
 						"style": null,
 						"visible": 4095,
 						"visualAttributes": [
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMZJB/entities/EN_PERSONAHF_537.json#/attributes/AT97_ESTADOUB537"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "estado",
+								"options": 0,
+								"order": 6,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXDGK_751478",
+								"width": null,
+								"widthComposite": "D"
+							},
 							{
 								"aggregate": null,
 								"aggregateId": null,
@@ -228,6 +268,43 @@
 								"aggregate": null,
 								"aggregateId": null,
 								"attribute": {
+									"$ref": "../../../../MMZJB/entities/EN_PERSONAHF_537.json#/attributes/AT80_APELLIOD537"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 0,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "apellidoC",
+								"options": 0,
+								"order": 8,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 0,
+								"visualAttributeId": "VA_TEXTINPUTBOXQLL_297478",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
 									"$ref": "../../../../MMZJB/entities/EN_PERSONAHF_537.json#/attributes/AT33_APELLIDD537"
 								},
 								"attributeValidations": [
@@ -295,6 +372,80 @@
 								},
 								"visible": 4095,
 								"visualAttributeId": "VA_TEXTINPUTBOXVMK_161478",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMZJB/entities/EN_PERSONAHF_537.json#/attributes/AT46_NOMBRECC537"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 0,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "nombreC",
+								"options": 0,
+								"order": 7,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 0,
+								"visualAttributeId": "VA_TEXTINPUTBOXWAS_673478",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMZJB/entities/EN_PERSONAHF_537.json#/attributes/AT66_SEXOXTUC537"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "sexo",
+								"options": 0,
+								"order": 5,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXZEH_936478",
 								"width": null,
 								"widthComposite": "D"
 							}

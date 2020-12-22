@@ -76,13 +76,14 @@
 						"queryView": {
 							"actionDesign": "Button",
 							"actions": [
-								"Create"
+								"Create",
+								"Update"
 							],
 							"allowPaging": true,
 							"allowPagingStr": "T",
 							"allowSorting": false,
 							"allowSortingStr": "F",
-							"autoSync": null,
+							"autoSync": false,
 							"componentStyle": null,
 							"confirmRowDeletion": false,
 							"confirmRowDeletionStr": "F",
@@ -93,10 +94,10 @@
 							"customUrlDialog": null,
 							"deleteCommandEnabled": false,
 							"deleteCommandEnabledStr": "F",
-							"dialogTitleLabelId": null,
-							"editCommandEnabled": false,
-							"editCommandEnabledStr": "F",
-							"editMode": "0",
+							"dialogTitleLabelId": "LBL_MMZJB_REGISTREI_66721",
+							"editCommandEnabled": true,
+							"editCommandEnabledStr": "T",
+							"editMode": "3",
 							"entityName": {
 								"$ref": "../../../../MMZJB/entities/EN_CLIENTEXN_689.json#/name"
 							},
@@ -112,13 +113,13 @@
 							"insertCommandEnabled": true,
 							"insertCommandEnabledStr": "T",
 							"isCustomized": false,
-							"modalSize": null,
+							"modalSize": "md",
 							"modeSelection": "None",
-							"moduleIdDialog": null,
+							"moduleIdDialog": "MMZJB",
 							"multiSelectEnabledStr": "F",
 							"name": "QV_RL23_CYN42",
 							"options": 2048,
-							"pageSize": null,
+							"pageSize": 10,
 							"query": {
 								"$ref": "../../../../MMZJB/SSMMJ/queries/Q_CLIEENNT_KK23.json#"
 							},
@@ -130,10 +131,10 @@
 							"queryViewType": "Grid",
 							"rowCommandAppearance": 0,
 							"style": null,
-							"subModuleIdDialog": null,
-							"taskIdDialog": "1.0.0",
-							"taskVersionDialog": null,
-							"typeFormDialog": null,
+							"subModuleIdDialog": "SSMMJ",
+							"taskIdDialog": "T_MMZJBTFBVPWTC_111",
+							"taskVersionDialog": "1.0.0",
+							"typeFormDialog": "forms",
 							"userControl": {
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",
@@ -142,7 +143,7 @@
 								"type": "I",
 								"userControlId": "Grid"
 							},
-							"viewContainerIdDialog": null
+							"viewContainerIdDialog": "VC_CLIENTEIJE_689111"
 						},
 						"queryViewId": "QV_RL23_CYN42",
 						"responsiveLayouts": null,

@@ -1,6 +1,20 @@
 [
 	{
 		"attributeName": "",
+		"controlId": "CM_TMMZJBOC_9TM",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "",
+		"eventsType": "commandEventType"
+	},
+	{
+		"attributeName": "",
 		"controlId": "CM_TMMZJBOC_SC6",
 		"controlName": "",
 		"controlType": "",
@@ -12,5 +26,33 @@
 		],
 		"entityName": "",
 		"eventsType": "commandEventType"
+	},
+	{
+		"attributeName": "estado",
+		"controlId": "VA_ESTADODBIQGUFUW_707284",
+		"controlName": "estado",
+		"controlType": "ComboBox",
+		"customEvents": [
+			{
+				"eventName": "change",
+				"executionType": 1
+			}
+		],
+		"entityName": "Persona",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "idPersona",
+		"controlId": "VA_IDPERSONAIPGITB_221284",
+		"controlName": "idPersona",
+		"controlType": "TextInputBox",
+		"customEvents": [
+			{
+				"eventName": "change",
+				"executionType": 1
+			}
+		],
+		"entityName": "Persona",
+		"eventsType": "visualAttributeEventType"
 	}
 ]

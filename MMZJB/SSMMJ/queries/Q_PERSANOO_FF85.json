@@ -68,6 +68,86 @@
 			"whereStr": "F"
 		},
 		{
+			"alias": "nombreC",
+			"attribute": {
+				"$ref": "../../../MMZJB/entities/EN_PERSONAHF_537.json#/attributes/AT46_NOMBRECC537"
+			},
+			"customizationLayer": null,
+			"customizationLayerDescription": null,
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": "2000",
+			"orderBy": 0,
+			"orderByDirection": "A",
+			"queryMemberId": "QM_PERSA5NONF246_01",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "sexo",
+			"attribute": {
+				"$ref": "../../../MMZJB/entities/EN_PERSONAHF_537.json#/attributes/AT66_SEXOXTUC537"
+			},
+			"customizationLayer": null,
+			"customizationLayerDescription": null,
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": "2000",
+			"orderBy": 0,
+			"orderByDirection": "A",
+			"queryMemberId": "QM_PERSAFF5FF341_02",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "estado",
+			"attribute": {
+				"$ref": "../../../MMZJB/entities/EN_PERSONAHF_537.json#/attributes/AT97_ESTADOUB537"
+			},
+			"customizationLayer": null,
+			"customizationLayerDescription": null,
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": "2000",
+			"orderBy": 0,
+			"orderByDirection": "A",
+			"queryMemberId": "QM_PERSANF8OF393_04",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "apellidoC",
+			"attribute": {
+				"$ref": "../../../MMZJB/entities/EN_PERSONAHF_537.json#/attributes/AT80_APELLIOD537"
+			},
+			"customizationLayer": null,
+			"customizationLayerDescription": null,
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": "2000",
+			"orderBy": 0,
+			"orderByDirection": "A",
+			"queryMemberId": "QM_PERSAOF55O108_03",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
 			"alias": "apellido",
 			"attribute": {
 				"$ref": "../../../MMZJB/entities/EN_PERSONAHF_537.json#/attributes/AT33_APELLIDD537"

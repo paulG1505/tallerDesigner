@@ -1,4 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component enabled="true" name="com.cobiscorp.cobis.mmzjb.customevents.impl.form.executecommand.Actualizar_CM_TMMZJBOC_9TM">
+        <implementation class="com.cobiscorp.cobis.mmzjb.customevents.impl.form.executecommand.Actualizar_CM_TMMZJBOC_9TM"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.customization.IExecuteCommand"/>
+        </service>
+        <property name="task.module" type="String" value="MMZJB"/>
+        <property name="task.submodule" type="String" value="SSMMJ"/>
+        <property name="task.id" type="String" value="T_MMZJBOCOGRIDN_472"/>
+        <property name="task.version" type="String" value="1.0.0"/>
+        <property name="task.controlId" type="String" value="CM_TMMZJBOC_9TM"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.mmzjb.customevents.impl.form.executecommand.Actualizar_CM_TMMZJBOC_9TM"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.mmzjb.customevents.impl.form.executecommand.Actualizar_CM_TMMZJBTF_ZS1">
+        <implementation class="com.cobiscorp.cobis.mmzjb.customevents.impl.form.executecommand.Actualizar_CM_TMMZJBTF_ZS1"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.customization.IExecuteCommand"/>
+        </service>
+        <property name="task.module" type="String" value="MMZJB"/>
+        <property name="task.submodule" type="String" value="SSMMJ"/>
+        <property name="task.id" type="String" value="T_MMZJBTFBVPWTC_111"/>
+        <property name="task.version" type="String" value="1.0.0"/>
+        <property name="task.controlId" type="String" value="CM_TMMZJBTF_ZS1"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.mmzjb.customevents.impl.form.executecommand.Actualizar_CM_TMMZJBTF_ZS1"/>
+    </scr:component>
     <scr:component enabled="true" name="com.cobiscorp.cobis.mmzjb.customevents.impl.form.executecommand.Insert_CM_TMMZJBTF_J1T">
         <implementation class="com.cobiscorp.cobis.mmzjb.customevents.impl.form.executecommand.Insert_CM_TMMZJBTF_J1T"/>
         <service servicefactory="false">

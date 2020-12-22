@@ -1,6 +1,6 @@
 /*
  * Archivo: T_MMZJBOCOGRIDN_472.java
- * Fecha: 2020-12-21T20:31:49Z
+ * Fecha: 2020-12-22T19:20:20Z
  *
  * Esta aplicacion es parte de los paquetes bancarios propiedad de COBISCORP.
  * Su uso no autorizado queda expresamente prohibido asi como cualquier

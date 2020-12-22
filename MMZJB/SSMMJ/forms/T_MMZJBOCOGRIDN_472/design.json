@@ -5,6 +5,72 @@
 	"commands": [
 		{
 			"action": null,
+			"causesValidation": true,
+			"causesValidationAsString": "T",
+			"close": true,
+			"closeAsString": "T",
+			"commandType": 0,
+			"customEvents": [
+				{
+					"commandEventType": {
+						"availableExecutionType": 7,
+						"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+						"eventId": 10,
+						"name": "ExecuteCommand"
+					},
+					"customEventId": "CECM_010CM_TMMZJBOC_9TM_335",
+					"customizationLayer": 0,
+					"customizationLayerDescription": "ECU",
+					"enabled": "T",
+					"eventActions": [
+						{
+							"actionArgs": [
+							],
+							"actionId": "CUSTOM",
+							"actionType": "CUSTOM"
+						},
+						{
+							"actionArgs": [
+							],
+							"actionId": "BLI1532_bli_updatepersona",
+							"actionType": "BLI",
+							"controlId": "CM_TMMZJBOC_9TM"
+						}
+					],
+					"executionType": 7,
+					"filter": null,
+					"isEnabled": true
+				}
+			],
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": 4095,
+			"group": null,
+			"id": {
+				"commandId": "CM_TMMZJBOC_9TM"
+			},
+			"imageId": null,
+			"isCustomized": false,
+			"label": {
+				"defaultValue": {
+					"$ref": "../../../../MMZJB/assets/languages/MMZJB.json#/MMZJB/LBL/LBL_MMZJB_ACTUALIRZ_42421"
+				},
+				"labelId": "LBL_MMZJB_ACTUALIRZ_42421",
+				"moduleId": "MMZJB"
+			},
+			"layoutType": "Command",
+			"name": "actualizar",
+			"options": 0,
+			"order": 2,
+			"showInMode": 2,
+			"userControl": {
+				"type": "A",
+				"userControlId": "Button"
+			},
+			"validationGroup": null
+		},
+		{
+			"action": null,
 			"causesValidation": false,
 			"causesValidationAsString": "F",
 			"close": false,
@@ -33,7 +99,8 @@
 							"actionArgs": [
 							],
 							"actionId": "BLI5163_bli_ingresopersona",
-							"actionType": "BLI"
+							"actionType": "BLI",
+							"controlId": "CM_TMMZJBOC_SC6"
 						}
 					],
 					"executionType": 7,
@@ -61,7 +128,7 @@
 			"name": "insertar",
 			"options": 0,
 			"order": 1,
-			"showInMode": 4095,
+			"showInMode": 1,
 			"userControl": {
 				"type": "A",
 				"userControlId": "Button"
@@ -147,6 +214,51 @@
 								"aggregate": null,
 								"aggregateId": null,
 								"attribute": {
+									"$ref": "../../../../MMZJB/entities/EN_PERSONAHF_537.json#/attributes/AT80_APELLIOD537"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../MMZJB/assets/languages/MMZJB.json#/MMZJB/LBL/LBL_MMZJB_APELLIDNU_13566"
+									},
+									"labelId": "LBL_MMZJB_APELLIDNU_13566",
+									"moduleId": "MMZJB"
+								},
+								"maxRecords": null,
+								"name": "apellidoC",
+								"options": 0,
+								"order": 7,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_APELLIDOCILKJTO_592284",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
 									"$ref": "../../../../MMZJB/entities/EN_PERSONAHF_537.json#/attributes/AT33_APELLIDD537"
 								},
 								"attributeValidations": [
@@ -185,6 +297,195 @@
 								},
 								"visible": 4095,
 								"visualAttributeId": "VA_APELLIDOSYKHDYL_172284",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMZJB/entities/EN_PERSONAHF_537.json#/attributes/AT97_ESTADOUB537"
+								},
+								"attributeValidations": [
+								],
+								"cacheDuration": 0,
+								"catalogName": "cl_ecivil",
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+									{
+										"customEventId": "CEVA_104VA_ESTADODBIQGUFUW_707284_160",
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": "T",
+										"eventActions": [
+										],
+										"executionType": 1,
+										"filter": null,
+										"isEnabled": true,
+										"visualAttributeEventType": {
+											"availableExecutionType": 7,
+											"description": "Se ejecuta al cambiar el valor de un VisualAttribute",
+											"eventId": 104,
+											"name": "Changed"
+										}
+									}
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"entityQuery": null,
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../MMZJB/assets/languages/MMZJB.json#/MMZJB/LBL/LBL_MMZJB_ESTADOCVL_93676"
+									},
+									"labelId": "LBL_MMZJB_ESTADOCVL_93676",
+									"moduleId": "MMZJB"
+								},
+								"maxRecords": null,
+								"minChars": null,
+								"name": "estado",
+								"options": 0,
+								"order": 5,
+								"queryId": null,
+								"queryMemberText": {
+									"attribute": {
+										"attributeId": null,
+										"name": null
+									},
+									"queryMemberId": null
+								},
+								"queryMemberValue": {
+									"attribute": {
+										"attributeId": null,
+										"name": null
+									},
+									"queryMemberId": null
+								},
+								"queryModule": null,
+								"queryVersion": null,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"type": null,
+								"userControl": {
+									"type": "I",
+									"userControlId": "ComboBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_ESTADODBIQGUFUW_707284",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMZJB/entities/EN_PERSONAHF_537.json#/attributes/AT24_IDPERSAN537"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+									{
+										"customEventId": "CEVA_104VA_IDPERSONAIPGITB_221284_195",
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": "T",
+										"eventActions": [
+										],
+										"executionType": 1,
+										"filter": null,
+										"isEnabled": true,
+										"visualAttributeEventType": {
+											"availableExecutionType": 7,
+											"description": "Se ejecuta al cambiar el valor de un VisualAttribute",
+											"eventId": 104,
+											"name": "Changed"
+										}
+									}
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../MMZJB/assets/languages/MMZJB.json#/MMZJB/LBL/LBL_MMZJB_IDPERSOAA_50273"
+									},
+									"labelId": "LBL_MMZJB_IDPERSOAA_50273",
+									"moduleId": "MMZJB"
+								},
+								"maxRecords": null,
+								"name": "idPersona",
+								"options": 2048,
+								"order": 8,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_IDPERSONAIPGITB_221284",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMZJB/entities/EN_PERSONAHF_537.json#/attributes/AT46_NOMBRECC537"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../MMZJB/assets/languages/MMZJB.json#/MMZJB/LBL/LBL_MMZJB_NOMBRECYU_72827"
+									},
+									"labelId": "LBL_MMZJB_NOMBRECYU_72827",
+									"moduleId": "MMZJB"
+								},
+								"maxRecords": null,
+								"name": "nombreC",
+								"options": 0,
+								"order": 6,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_NOMBRECNWVDSHBV_508284",
 								"width": null,
 								"widthComposite": "D"
 							},
@@ -306,19 +607,26 @@
 								"attributeValidations": [
 									{
 										"compareOperator": -1,
-										"id": "VV_TELEFONOTHMGSUS_44528465",
-										"maxValue": "10",
-										"minValue": "0",
+										"id": "VV_TELEFONOTHMGSUS_44528437",
+										"regularExpression": "^[0-9]{0,10}$",
 										"validateMessageLabel": {
 											"defaultValue": {
-												"$ref": "../../../../MMZJB/assets/languages/MMZJB.json#/MMZJB/MSG/MSG_MMZJB_NUMEROINO_39406"
+												"$ref": "../../../../MMZJB/assets/languages/MMZJB.json#/MMZJB/MSG/MSG_MMZJB_TELEFONOO_70062"
 											},
-											"labelId": "MSG_MMZJB_NUMEROINO_39406",
+											"labelId": "MSG_MMZJB_TELEFONOO_70062",
 											"moduleId": "MMZJB"
 										},
 										"visualValidationType": {
-											"description": "RangeValues Validation",
-											"visualValidationId": "RangeValues"
+											"description": "Regula Expression Validation",
+											"visualValidationId": "RegularExpression"
+										}
+									},
+									{
+										"compareOperator": 1,
+										"id": "VV_TELEFONOTHMGSUS_44528458",
+										"visualValidationType": {
+											"description": "Letters and Numbers, only Numbers, custom list, custom function, lock",
+											"visualValidationId": "InputRestriction"
 										}
 									}
 								],

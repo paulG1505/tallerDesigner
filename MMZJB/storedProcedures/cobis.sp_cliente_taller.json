@@ -99,6 +99,11 @@
 				"dataType": "varchar",
 				"direction": "in",
 				"name": "@i_nacionalidad"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@i_id"
 			}
 		],
 		"queries": [

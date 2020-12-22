@@ -44,9 +44,6 @@ public class PersonaQuery_Q_PERSANOO_FF85 implements IExecuteQuery {
 			if (logger.isDebugEnabled()) {
 				logger.logDebug("Start executeDataEvent in PersonaQuery_Q_PERSANOO_FF85");
 			}
-			 if (arg0.getEntityList("Persona") != null){
-        return arg0.getEntityList("Persona").getDataList(); 
-			 }
 		} catch (Exception ex) {
 			DesignerManagerException.handleException(arg1.getMessageManager(), ex, logger);
 		}

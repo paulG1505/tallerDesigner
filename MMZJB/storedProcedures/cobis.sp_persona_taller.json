@@ -94,6 +94,26 @@
 				"dataType": "varchar",
 				"direction": "in",
 				"name": "@i_sexo"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_estado_civil"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_nombre_conyugue"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_apellido_conyugue"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@i_id"
 			}
 		],
 		"queries": [
@@ -105,7 +125,7 @@
 					"apellido",
 					"telefono"
 				],
-				"editMode": true,
+				"editMode": false,
 				"queryText": "SELECT \"id\"=pe_id,\r\n              \"nombre\"=pe_nombre,\r\n              \"apellido\"=pe_apellido,\r\n              \"telefono\"=pe_telefono\r\n              FROM"
 			}
 		],

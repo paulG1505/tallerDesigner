@@ -216,20 +216,22 @@ function VC_CLIENTEIJE_689111(cobisMainModule) {
                 id: "VA_3FKWEQFJVVKNDKZ_370646",
                 componentStyle: [],
                 label: "MMZJB.LBL_MMZJB_TELEFONOO_68649",
-                validationCode: 0,
+                validationCode: 1,
                 readOnly: designer.constants.mode.Query,
                 enabled: designer.constants.mode.All,
-                visible: designer.constants.mode.All
+                visible: designer.constants.mode.All,
+                restrict: 'numbers'
             });
             //ViewState - Entity: Cliente, Attribute: cedula
             $scope.vc.createViewState({
                 id: "VA_4DNKTATSNTMIZXQ_886646",
                 componentStyle: [],
                 label: "MMZJB.LBL_MMZJB_CEDULALDF_63438",
-                validationCode: 0,
+                validationCode: 1,
                 readOnly: designer.constants.mode.Query,
                 enabled: designer.constants.mode.All,
-                visible: designer.constants.mode.All
+                visible: designer.constants.mode.All,
+                restrict: 'numbers'
             });
             //ViewState - Entity: Cliente, Attribute: nacionalidad
             $scope.vc.createViewState({
@@ -272,6 +274,29 @@ function VC_CLIENTEIJE_689111(cobisMainModule) {
                         id: "code"
                     }
                 }
+            }); //ViewState - Entity: Cliente, Attribute: idCliente
+            $scope.vc.createViewState({
+                id: "VA_IDCLIENTEUHFNSS_725646",
+                componentStyle: [],
+                label: "MMZJB.LBL_MMZJB_IDCLIENTE_61097",
+                format: "n0",
+                decimals: 0,
+                validationCode: 0,
+                readOnly: designer.constants.mode.Query,
+                enabled: designer.constants.mode.All,
+                visible: designer.constants.mode.All
+            });
+            //watch tmpModel - Entity: Cliente, Attribute: idCliente
+            $scope.$watch('vc.model.Cliente.idCliente', function(newValue, oldValue) {
+                if (newValue !== oldValue) {
+                    if (angular.isDefined($scope.vc.tmpModel.Cliente)) {
+                        $scope.vc.tmpModel.Cliente.idCliente = newValue;
+                    } else {
+                        $scope.vc.tmpModel.Cliente = {
+                            idCliente: newValue
+                        };
+                    }
+                }
             });
             //ViewState - Command: Accept
             $scope.vc.createViewState({
@@ -294,6 +319,14 @@ function VC_CLIENTEIJE_689111(cobisMainModule) {
                 id: "CM_TMMZJBTF_J1T",
                 componentStyle: [],
                 label: "MMZJB.LBL_MMZJB_GUARDARLZ_91123",
+                enabled: designer.constants.mode.All,
+                visible: designer.constants.mode.All
+            });
+            //ViewState - Command: actualizar
+            $scope.vc.createViewState({
+                id: "CM_TMMZJBTF_ZS1",
+                componentStyle: [],
+                label: "MMZJB.LBL_MMZJB_ACTUALIRZ_42421",
                 enabled: designer.constants.mode.All,
                 visible: designer.constants.mode.All
             });

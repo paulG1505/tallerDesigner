@@ -34,7 +34,7 @@
         <div class="form-group" id="VA_TELEFONOTHMGSUS_445284_DIV"> 
          <label for="VA_TELEFONOTHMGSUS_445284" title="{{vc.viewState.VA_TELEFONOTHMGSUS_445284.label|translate:vc.viewState.VA_TELEFONOTHMGSUS_445284.labelArgs}}" ng-show="vc.viewState.VA_TELEFONOTHMGSUS_445284.visible" class="control-label">{{vc.viewState.VA_TELEFONOTHMGSUS_445284.label|translate:vc.viewState.VA_TELEFONOTHMGSUS_445284.labelArgs}}</label> 
          <div class="cb-control"> 
-          <input id="VA_TELEFONOTHMGSUS_445284" name="Persona_telefono" type="text" class="form-control" maxlength="30" ng-model="vc.model.Persona.telefono" ng-disabled="vc.viewState.VA_TELEFONOTHMGSUS_445284.disabled || vc.viewState.VA_TELEFONOTHMGSUS_445284.disabledingroup" ng-show="vc.viewState.VA_TELEFONOTHMGSUS_445284.visible" ng-readonly="vc.viewState.VA_TELEFONOTHMGSUS_445284.readonly" ng-class="vc.viewState.VA_TELEFONOTHMGSUS_445284.style" data-cobis-group="Group,G_PERSONAMVM_640284,0" ng-model-onblur compare-in-range compare-min="0" compare-max="10" data-validation-code="{{vc.viewState.VA_TELEFONOTHMGSUS_445284.validationCode}}" data-compareinrange-msg="{{'MMZJB.MSG_MMZJB_NUMEROINO_39406'|translate}}" /> 
+          <input id="VA_TELEFONOTHMGSUS_445284" name="Persona_telefono" type="text" class="form-control" maxlength="30" ng-model="vc.model.Persona.telefono" ng-disabled="vc.viewState.VA_TELEFONOTHMGSUS_445284.disabled || vc.viewState.VA_TELEFONOTHMGSUS_445284.disabledingroup" ng-show="vc.viewState.VA_TELEFONOTHMGSUS_445284.visible" ng-readonly="vc.viewState.VA_TELEFONOTHMGSUS_445284.readonly" ng-class="vc.viewState.VA_TELEFONOTHMGSUS_445284.style" data-cobis-group="Group,G_PERSONAMVM_640284,0" ng-model-onblur regular-expression regexppattern="^[0-9]{0,10}$" designer-restrict-input="{{vc.viewState.VA_TELEFONOTHMGSUS_445284.restrict}}" data-validation-code="{{vc.viewState.VA_TELEFONOTHMGSUS_445284.validationCode}}" data-regularexpression-msg="{{'MMZJB.MSG_MMZJB_TELEFONOO_70062'|translate}}" /> 
          </div> 
         </div> 
        </div> 
@@ -43,6 +43,38 @@
          <label for="VA_SEXORFDIPCOVPDK_931284" title="{{vc.viewState.VA_SEXORFDIPCOVPDK_931284.label|translate:vc.viewState.VA_SEXORFDIPCOVPDK_931284.labelArgs}}" ng-show="vc.viewState.VA_SEXORFDIPCOVPDK_931284.visible" class="control-label">{{vc.viewState.VA_SEXORFDIPCOVPDK_931284.label|translate:vc.viewState.VA_SEXORFDIPCOVPDK_931284.labelArgs}}</label> 
          <div class="cb-control"> 
           <select id="VA_SEXORFDIPCOVPDK_931284" kendo-ext-combo-box="comboBox.VA_SEXORFDIPCOVPDK_931284" k-index="0" k-auto-bind="true" name="Persona_sexo" k-ng-model="vc.model.Persona.sexo" data-value-primitive="true" ng-disabled="vc.viewState.VA_SEXORFDIPCOVPDK_931284.disabled || vc.viewState.VA_SEXORFDIPCOVPDK_931284.disabledingroup" ng-show="vc.viewState.VA_SEXORFDIPCOVPDK_931284.visible" ng-readonly="vc.viewState.VA_SEXORFDIPCOVPDK_931284.readonly" ng-class="vc.viewState.VA_SEXORFDIPCOVPDK_931284.style" k-data-source="vc.catalogs.VA_SEXORFDIPCOVPDK_931284" k-no-data-template="''" k-ng-delay="vc.afterInitData" k-data-text-field="'value'" k-data-value-field="'code'" k-template="vc.viewState.VA_SEXORFDIPCOVPDK_931284.template" data-cobis-group="Group,G_PERSONAMVM_640284,0" data-validation-code="{{vc.viewState.VA_SEXORFDIPCOVPDK_931284.validationCode}}"></select> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="col-xs-4" ng-show="vc.viewState.VA_ESTADODBIQGUFUW_707284.visible"> 
+        <div class="form-group" id="VA_ESTADODBIQGUFUW_707284_DIV"> 
+         <label for="VA_ESTADODBIQGUFUW_707284" title="{{vc.viewState.VA_ESTADODBIQGUFUW_707284.label|translate:vc.viewState.VA_ESTADODBIQGUFUW_707284.labelArgs}}" ng-show="vc.viewState.VA_ESTADODBIQGUFUW_707284.visible" class="control-label">{{vc.viewState.VA_ESTADODBIQGUFUW_707284.label|translate:vc.viewState.VA_ESTADODBIQGUFUW_707284.labelArgs}}</label> 
+         <div class="cb-control"> 
+          <select id="VA_ESTADODBIQGUFUW_707284" kendo-ext-combo-box="comboBox.VA_ESTADODBIQGUFUW_707284" k-index="0" k-auto-bind="true" name="Persona_estado" k-ng-model="vc.model.Persona.estado" data-value-primitive="true" ng-disabled="vc.viewState.VA_ESTADODBIQGUFUW_707284.disabled || vc.viewState.VA_ESTADODBIQGUFUW_707284.disabledingroup" ng-show="vc.viewState.VA_ESTADODBIQGUFUW_707284.visible" ng-readonly="vc.viewState.VA_ESTADODBIQGUFUW_707284.readonly" ng-class="vc.viewState.VA_ESTADODBIQGUFUW_707284.style" k-data-source="vc.catalogs.VA_ESTADODBIQGUFUW_707284" k-no-data-template="''" k-ng-delay="vc.afterInitData" k-data-text-field="'value'" k-data-value-field="'code'" k-template="vc.viewState.VA_ESTADODBIQGUFUW_707284.template" data-cobis-group="Group,G_PERSONAMVM_640284,0" data-validation-code="{{vc.viewState.VA_ESTADODBIQGUFUW_707284.validationCode}}" designer-change></select> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="col-xs-4" ng-show="vc.viewState.VA_NOMBRECNWVDSHBV_508284.visible"> 
+        <div class="form-group" id="VA_NOMBRECNWVDSHBV_508284_DIV"> 
+         <label for="VA_NOMBRECNWVDSHBV_508284" title="{{vc.viewState.VA_NOMBRECNWVDSHBV_508284.label|translate:vc.viewState.VA_NOMBRECNWVDSHBV_508284.labelArgs}}" ng-show="vc.viewState.VA_NOMBRECNWVDSHBV_508284.visible" class="control-label">{{vc.viewState.VA_NOMBRECNWVDSHBV_508284.label|translate:vc.viewState.VA_NOMBRECNWVDSHBV_508284.labelArgs}}</label> 
+         <div class="cb-control"> 
+          <input id="VA_NOMBRECNWVDSHBV_508284" name="Persona_nombreC" type="text" class="form-control" maxlength="30" ng-model="vc.model.Persona.nombreC" ng-disabled="vc.viewState.VA_NOMBRECNWVDSHBV_508284.disabled || vc.viewState.VA_NOMBRECNWVDSHBV_508284.disabledingroup" ng-show="vc.viewState.VA_NOMBRECNWVDSHBV_508284.visible" ng-readonly="vc.viewState.VA_NOMBRECNWVDSHBV_508284.readonly" ng-class="vc.viewState.VA_NOMBRECNWVDSHBV_508284.style" data-cobis-group="Group,G_PERSONAMVM_640284,0" ng-model-onblur data-validation-code="{{vc.viewState.VA_NOMBRECNWVDSHBV_508284.validationCode}}" /> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="col-xs-4" ng-show="vc.viewState.VA_APELLIDOCILKJTO_592284.visible"> 
+        <div class="form-group" id="VA_APELLIDOCILKJTO_592284_DIV"> 
+         <label for="VA_APELLIDOCILKJTO_592284" title="{{vc.viewState.VA_APELLIDOCILKJTO_592284.label|translate:vc.viewState.VA_APELLIDOCILKJTO_592284.labelArgs}}" ng-show="vc.viewState.VA_APELLIDOCILKJTO_592284.visible" class="control-label">{{vc.viewState.VA_APELLIDOCILKJTO_592284.label|translate:vc.viewState.VA_APELLIDOCILKJTO_592284.labelArgs}}</label> 
+         <div class="cb-control"> 
+          <input id="VA_APELLIDOCILKJTO_592284" name="Persona_apellidoC" type="text" class="form-control" maxlength="30" ng-model="vc.model.Persona.apellidoC" ng-disabled="vc.viewState.VA_APELLIDOCILKJTO_592284.disabled || vc.viewState.VA_APELLIDOCILKJTO_592284.disabledingroup" ng-show="vc.viewState.VA_APELLIDOCILKJTO_592284.visible" ng-readonly="vc.viewState.VA_APELLIDOCILKJTO_592284.readonly" ng-class="vc.viewState.VA_APELLIDOCILKJTO_592284.style" data-cobis-group="Group,G_PERSONAMVM_640284,0" ng-model-onblur data-validation-code="{{vc.viewState.VA_APELLIDOCILKJTO_592284.validationCode}}" /> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="col-xs-4" ng-show="vc.viewState.VA_IDPERSONAIPGITB_221284.visible"> 
+        <div class="form-group" id="VA_IDPERSONAIPGITB_221284_DIV"> 
+         <label for="VA_IDPERSONAIPGITB_221284" title="{{vc.viewState.VA_IDPERSONAIPGITB_221284.label|translate:vc.viewState.VA_IDPERSONAIPGITB_221284.labelArgs}}" ng-show="vc.viewState.VA_IDPERSONAIPGITB_221284.visible" class="control-label">{{vc.viewState.VA_IDPERSONAIPGITB_221284.label|translate:vc.viewState.VA_IDPERSONAIPGITB_221284.labelArgs}}</label> 
+         <div class="cb-control"> 
+          <input id="VA_IDPERSONAIPGITB_221284" name="Persona_idPersona" kendo-numeric-text-box k-spinners="false" k-step="0" datatypes-limit="N" k-decimals="vc.viewState.VA_IDPERSONAIPGITB_221284.decimals" k-ng-delay="vc.afterInitData" k-format="vc.viewState.VA_IDPERSONAIPGITB_221284.format" k-ng-model="vc.model.Persona.idPersona" ng-model="vc.tmpModel.Persona.idPersona" ng-disabled="vc.viewState.VA_IDPERSONAIPGITB_221284.disabled || vc.viewState.VA_IDPERSONAIPGITB_221284.disabledingroup" ng-show="vc.viewState.VA_IDPERSONAIPGITB_221284.visible" ng-readonly="vc.viewState.VA_IDPERSONAIPGITB_221284.readonly" ng-class="vc.viewState.VA_IDPERSONAIPGITB_221284.style" data-cobis-group="Group,G_PERSONAMVM_640284,0" ng-model-onblur data-validation-code="{{vc.viewState.VA_IDPERSONAIPGITB_221284.validationCode}}" designer-restrict-input="lock" designer-change /> 
          </div> 
         </div> 
        </div> 
@@ -58,6 +90,7 @@
   <div class="cb-navbar cb-navbar-bottom" ng-if="!vc.childVc || !vc.autoSyncNavigation"> 
    <nav ng-class="vc.getCssClass('',['navbar', 'navbar-default'] ,{'navbar-fixed-bottom': (!vc.isModal(this) && !vc.isDetailGrid(this))})"> 
     <button id="CM_TMMZJBOC_SC6" ng-click="vc.executeCommand('CM_TMMZJBOC_SC6','insertar', validator, false, false, 'VC_PERSONAHWD_681472', false)" class="btn btn-primary navbar-btn" ng-disabled="vc.viewState.CM_TMMZJBOC_SC6.disabled || vc.viewState.CM_TMMZJBOC_SC6.disabledingroup" ng-show="vc.viewState.CM_TMMZJBOC_SC6.visible" ng-class="vc.viewState.CM_TMMZJBOC_SC6.style"> {{vc.viewState.CM_TMMZJBOC_SC6.label|translate}} </button> 
+    <button id="CM_TMMZJBOC_9TM" ng-click="vc.executeCommand('CM_TMMZJBOC_9TM','actualizar', validator, true, false, 'VC_PERSONAHWD_681472', true)" class="btn btn-default navbar-btn" ng-disabled="vc.viewState.CM_TMMZJBOC_9TM.disabled || vc.viewState.CM_TMMZJBOC_9TM.disabledingroup" ng-show="vc.viewState.CM_TMMZJBOC_9TM.visible" ng-class="vc.viewState.CM_TMMZJBOC_9TM.style"> {{vc.viewState.CM_TMMZJBOC_9TM.label|translate}} </button> 
    </nav> 
   </div> 
   <div class="cb-navbar cb-navbar-bottom" ng-if="vc.childVc && vc.autoSyncNavigation"> 

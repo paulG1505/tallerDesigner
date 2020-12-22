@@ -58,9 +58,12 @@ public class BLI5163_bli_ingresopersona implements IBLIExecutor {
       String wapellido = rowPersona.get(Persona.APELLIDO);
       String wtelefono = rowPersona.get(Persona.TELEFONO);
       String wsexo = rowPersona.get(Persona.SEXO);
+      String westado = rowPersona.get(Persona.ESTADO);
+      String wnombreC = rowPersona.get(Persona.NOMBREC);
+      String wapellidoC = rowPersona.get(Persona.APELLIDOC);
 
       if (logger.isDebugEnabled()) {
-        logger.logDebug("inputParameters: " + " NOMBRE: " + wnombre + " APELLIDO: " + wapellido + " TELEFONO: " + wtelefono + " SEXO: " + wsexo);
+        logger.logDebug("inputParameters: " + " NOMBRE: " + wnombre + " APELLIDO: " + wapellido + " TELEFONO: " + wtelefono + " SEXO: " + wsexo + " ESTADO: " + westado + " NOMBREC: " + wnombreC + " APELLIDOC: " + wapellidoC);
       }
 
       mapper = MapperManager.get(Mapper.class);
@@ -81,6 +84,18 @@ public class BLI5163_bli_ingresopersona implements IBLIExecutor {
 
       if (wsexo != null){
         mapper.addInputParameter("@i_sexo", SqlType.VARCHAR, BLIUtils.convertToType(wsexo, String.class));
+      }
+
+      if (westado != null){
+        mapper.addInputParameter("@i_estado_civil", SqlType.CHAR, BLIUtils.convertToType(westado, String.class));
+      }
+
+      if (wnombreC != null){
+        mapper.addInputParameter("@i_nombre_conyugue", SqlType.VARCHAR, BLIUtils.convertToType(wnombreC, String.class));
+      }
+
+      if (wapellidoC != null){
+        mapper.addInputParameter("@i_apellido_conyugue", SqlType.VARCHAR, BLIUtils.convertToType(wapellidoC, String.class));
       }
       boolean ret = mapper.execute(".cobis.sp_persona_taller");
       int retCode = mapper.returnCode();

@@ -1,6 +1,6 @@
 /*
  * Archivo: T_MMZJBZRAWDKBQ_272.java
- * Fecha: 2020-12-21T20:31:42Z
+ * Fecha: 2020-12-22T19:20:10Z
  *
  * Esta aplicacion es parte de los paquetes bancarios propiedad de COBISCORP.
  * Su uso no autorizado queda expresamente prohibido asi como cualquier

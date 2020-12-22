@@ -17,11 +17,17 @@ public class Persona {
 	
 	public static final Property<String> APELLIDO = new Property<String>("apellido", String.class, false);
 	
+	public static final Property<String> NOMBREC = new Property<String>("nombreC", String.class, false);
+	
 	public static final Property<String> NOMBRE = new Property<String>("nombre", String.class, false);
 	
 	public static final Property<String> TELEFONO = new Property<String>("telefono", String.class, false);
 	
 	public static final Property<String> SEXO = new Property<String>("sexo", String.class, false);
+	
+	public static final Property<String> APELLIDOC = new Property<String>("apellidoC", String.class, false);
+	
+	public static final Property<String> ESTADO = new Property<String>("estado", String.class, false);
 	
 	public static final List<Property<?>> getPks() {
 		List<Property<?>> pks = new ArrayList<Property<?>>();

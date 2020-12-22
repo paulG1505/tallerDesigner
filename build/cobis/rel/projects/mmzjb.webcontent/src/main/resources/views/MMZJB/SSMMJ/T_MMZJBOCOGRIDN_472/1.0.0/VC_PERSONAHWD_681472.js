@@ -98,9 +98,12 @@ function VC_PERSONAHWD_681472(cobisMainModule) {
                     Persona: {
                         idPersona: 'AT24_IDPERSAN537',
                         apellido: 'AT33_APELLIDD537',
+                        nombreC: 'AT46_NOMBRECC537',
                         nombre: 'AT46_NOMBRELV537',
                         telefono: 'AT56_TELEFOOO537',
                         sexo: 'AT66_SEXOXTUC537',
+                        apellidoC: 'AT80_APELLIOD537',
+                        estado: 'AT97_ESTADOUB537',
                         _pks: [],
                         _entityId: 'EN_PERSONAHF_537',
                         _entityVersion: '1.0.0',
@@ -176,9 +179,12 @@ function VC_PERSONAHWD_681472(cobisMainModule) {
             $scope.vc.model.Persona = {
                 idPersona: $scope.vc.channelDefaultValues("Persona", "idPersona"),
                 apellido: $scope.vc.channelDefaultValues("Persona", "apellido"),
+                nombreC: $scope.vc.channelDefaultValues("Persona", "nombreC"),
                 nombre: $scope.vc.channelDefaultValues("Persona", "nombre"),
                 telefono: $scope.vc.channelDefaultValues("Persona", "telefono"),
-                sexo: $scope.vc.channelDefaultValues("Persona", "sexo")
+                sexo: $scope.vc.channelDefaultValues("Persona", "sexo"),
+                apellidoC: $scope.vc.channelDefaultValues("Persona", "apellidoC"),
+                estado: $scope.vc.channelDefaultValues("Persona", "estado")
             };
             //ViewState - Group: Group2533
             $scope.vc.createViewState({
@@ -214,10 +220,11 @@ function VC_PERSONAHWD_681472(cobisMainModule) {
                 id: "VA_TELEFONOTHMGSUS_445284",
                 componentStyle: [],
                 label: "MMZJB.LBL_MMZJB_TELEFONOO_68649",
-                validationCode: 2,
+                validationCode: 1,
                 readOnly: designer.constants.mode.Query,
                 enabled: designer.constants.mode.All,
-                visible: designer.constants.mode.All
+                visible: designer.constants.mode.All,
+                restrict: 'numbers'
             });
             //ViewState - Entity: Persona, Attribute: sexo
             $scope.vc.createViewState({
@@ -260,6 +267,90 @@ function VC_PERSONAHWD_681472(cobisMainModule) {
                         id: "code"
                     }
                 }
+            }); //ViewState - Entity: Persona, Attribute: estado
+            $scope.vc.createViewState({
+                id: "VA_ESTADODBIQGUFUW_707284",
+                componentStyle: [],
+                label: "MMZJB.LBL_MMZJB_ESTADOCVL_93676",
+                validationCode: 0,
+                readOnly: designer.constants.mode.Query,
+                enabled: designer.constants.mode.All,
+                visible: designer.constants.mode.All,
+                isComboBox: true
+            });
+            $scope.vc.catalogs.VA_ESTADODBIQGUFUW_707284 = new kendo.data.DataSource({
+                transport: {
+                    read: function(options) {
+                        $scope.vc.loadCatalogCobis('VA_ESTADODBIQGUFUW_707284', 'cl_ecivil', function(response) {
+                            var data = [];
+                            if (angular.isDefined(response.data)) {
+                                var catalogResponse = response.data['RESULTVA_ESTADODBIQGUFUW_707284'];
+                                if (angular.isDefined(catalogResponse) && !$.isEmptyObject(catalogResponse)) {
+                                    data = catalogResponse;
+                                    options.success(data);
+                                } else {
+                                    options.success(data);
+                                }
+                            } else {
+                                options.success(data);
+                            }
+                            $scope.vc.setComboBoxDefaultValue("VA_ESTADODBIQGUFUW_707284", true, data[0], 'code', data);
+                            $scope.vc.setEnableAndReadonlyStatus("VA_ESTADODBIQGUFUW_707284");
+                        }, null, options.data.filter, 0);
+                    }
+                },
+                requestStart: function(e) {
+                    $scope.vc.requestStartRead(e, "VA_ESTADODBIQGUFUW_707284", null);
+                },
+                serverFiltering: true,
+                schema: {
+                    model: {
+                        id: "code"
+                    }
+                }
+            }); //ViewState - Entity: Persona, Attribute: nombreC
+            $scope.vc.createViewState({
+                id: "VA_NOMBRECNWVDSHBV_508284",
+                componentStyle: [],
+                label: "MMZJB.LBL_MMZJB_NOMBRECYU_72827",
+                validationCode: 0,
+                readOnly: designer.constants.mode.Query,
+                enabled: designer.constants.mode.All,
+                visible: designer.constants.mode.All
+            });
+            //ViewState - Entity: Persona, Attribute: apellidoC
+            $scope.vc.createViewState({
+                id: "VA_APELLIDOCILKJTO_592284",
+                componentStyle: [],
+                label: "MMZJB.LBL_MMZJB_APELLIDNU_13566",
+                validationCode: 0,
+                readOnly: designer.constants.mode.Query,
+                enabled: designer.constants.mode.All,
+                visible: designer.constants.mode.All
+            });
+            //ViewState - Entity: Persona, Attribute: idPersona
+            $scope.vc.createViewState({
+                id: "VA_IDPERSONAIPGITB_221284",
+                componentStyle: [],
+                label: "MMZJB.LBL_MMZJB_IDPERSOAA_50273",
+                format: "n0",
+                decimals: 0,
+                validationCode: 0,
+                readOnly: designer.constants.mode.Query,
+                enabled: designer.constants.mode.All,
+                visible: designer.constants.mode.All
+            });
+            //watch tmpModel - Entity: Persona, Attribute: idPersona
+            $scope.$watch('vc.model.Persona.idPersona', function(newValue, oldValue) {
+                if (newValue !== oldValue) {
+                    if (angular.isDefined($scope.vc.tmpModel.Persona)) {
+                        $scope.vc.tmpModel.Persona.idPersona = newValue;
+                    } else {
+                        $scope.vc.tmpModel.Persona = {
+                            idPersona: newValue
+                        };
+                    }
+                }
             });
             //ViewState - Command: Accept
             $scope.vc.createViewState({
@@ -283,7 +374,15 @@ function VC_PERSONAHWD_681472(cobisMainModule) {
                 componentStyle: [],
                 label: "MMZJB.LBL_MMZJB_INSERTARR_19718",
                 enabled: designer.constants.mode.All,
-                visible: designer.constants.mode.All
+                visible: designer.constants.mode.Insert
+            });
+            //ViewState - Command: actualizar
+            $scope.vc.createViewState({
+                id: "CM_TMMZJBOC_9TM",
+                componentStyle: [],
+                label: "MMZJB.LBL_MMZJB_ACTUALIRZ_42421",
+                enabled: designer.constants.mode.All,
+                visible: designer.constants.mode.Update
             });
             if ($scope.vc.parentVc) {
                 $scope.vc.afterOpenGridDialog();

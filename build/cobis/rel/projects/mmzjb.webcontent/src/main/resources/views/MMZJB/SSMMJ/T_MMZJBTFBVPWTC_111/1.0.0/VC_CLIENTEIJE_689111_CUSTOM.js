@@ -39,6 +39,36 @@ task.executeCommand.CM_TMMZJBTF_J1T = function(entities, executeCommandEventArgs
 
 };
 
+	
+//Start signature to Callback event to CM_TMMZJBTF_J1T
+task.executeCommandCallback.CM_TMMZJBTF_J1T = function(entities, executeCommandCallbackEventArgs) {
+     //here your code
+    executeCommandCallbackEventArgs.commons.api.grid.refresh('QV_RL23_CYN42');//REFRESH
+    
+    executeCommandCallbackEventArgs.commons.api.vc.closeModal({});
+};
+
+
+	
+
+
+// (Button) 
+task.executeCommand.CM_TMMZJBTF_ZS1 = function(entities, executeCommandEventArgs) {
+    executeCommandEventArgs.commons.execServer = true;
+    //executeCommandEventArgs.commons.serverParameters.entityName = true;
+
+};
+
+	
+//Start signature to Callback event to CM_TMMZJBTF_ZS1
+task.executeCommandCallback.CM_TMMZJBTF_ZS1 = function(entities, executeCommandCallbackEventArgs) {
+     //here your code
+      executeCommandCallbackEventArgs.commons.api.grid.refresh('QV_RL23_CYN42');//REFRESH
+    
+    executeCommandCallbackEventArgs.commons.api.vc.closeModal({});
+};
+
+
 
 
 }));

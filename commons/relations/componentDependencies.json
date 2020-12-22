@@ -6,22 +6,22 @@
 			"labels": [
 			]
 		},
+		"EN_FILTROBRU_224": {
+			"labels": [
+			]
+		},
 		"EN_PERSONAHF_537": {
 			"labels": [
 			]
 		}
 	},
 	"Forms": {
-		"T_MMZJBOCOGRIDN_472": {
+		"T_MMZJBJPYGFBPO_294": {
 			"blis": [
-				"BLI5163_bli_ingresopersona"
 			],
 			"entities": {
-				"EN_PERSONAHF_537": [
-					"AT33_APELLIDD537",
-					"AT46_NOMBRELV537",
-					"AT56_TELEFOOO537",
-					"AT66_SEXOXTUC537"
+				"EN_FILTROBRU_224": [
+					"AT53_FILTRONL224"
 				]
 			},
 			"externalEntities": {
@@ -31,12 +31,48 @@
 			"header": [
 			],
 			"labels": [
+				"LBL_MMZJB_FILTROSPO_66051"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		},
+		"T_MMZJBOCOGRIDN_472": {
+			"blis": [
+				"BLI1532_bli_updatepersona",
+				"BLI5163_bli_ingresopersona"
+			],
+			"entities": {
+				"EN_PERSONAHF_537": [
+					"AT24_IDPERSAN537",
+					"AT33_APELLIDD537",
+					"AT46_NOMBRECC537",
+					"AT46_NOMBRELV537",
+					"AT56_TELEFOOO537",
+					"AT66_SEXOXTUC537",
+					"AT80_APELLIOD537",
+					"AT97_ESTADOUB537"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_MMZJB_ACTUALIRZ_42421",
+				"LBL_MMZJB_APELLIDNU_13566",
 				"LBL_MMZJB_APELLIDOO_38493",
+				"LBL_MMZJB_ESTADOCVL_93676",
 				"LBL_MMZJB_GENEROVWQ_11955",
+				"LBL_MMZJB_IDPERSOAA_50273",
 				"LBL_MMZJB_INSERTARR_19718",
+				"LBL_MMZJB_NOMBRECYU_72827",
 				"LBL_MMZJB_NOMBREKRP_59149",
 				"LBL_MMZJB_TELEFONOO_68649",
-				"MSG_MMZJB_NUMEROINO_39406"
+				"MSG_MMZJB_TELEFONOO_70062"
 			],
 			"queries": {
 			},
@@ -52,7 +88,9 @@
 					"AT24_IDPERSAN537",
 					"AT33_APELLIDD537",
 					"AT46_NOMBRELV537",
-					"AT56_TELEFOOO537"
+					"AT56_TELEFOOO537",
+					"AT66_SEXOXTUC537",
+					"AT97_ESTADOUB537"
 				]
 			},
 			"externalEntities": {
@@ -66,6 +104,8 @@
 			"queries": {
 				"Q_PERSANOO_FF85": [
 					"QM_PERSA55O5F559_03",
+					"QM_PERSAFF5FF341_02",
+					"QM_PERSANF8OF393_04",
 					"QM_PERSAOF88F481_02",
 					"QM_PERSAONFNO822_04",
 					"QM_PERSAONO88351_01"
@@ -76,12 +116,14 @@
 		},
 		"T_MMZJBTFBVPWTC_111": {
 			"blis": [
+				"BLI3462_bli_update_cliente",
 				"BLI6154_bli_cliente"
 			],
 			"entities": {
 				"EN_CLIENTEXN_689": [
 					"AT31_APELLIOD689",
 					"AT43_NOMBREIW689",
+					"AT45_IDCLIEEE689",
 					"AT49_NACIONDL689",
 					"AT61_TELEFOON689",
 					"AT80_CEDULAXG689"
@@ -94,12 +136,16 @@
 			"header": [
 			],
 			"labels": [
+				"LBL_MMZJB_ACTUALIRZ_42421",
 				"LBL_MMZJB_APELLIDOO_38493",
 				"LBL_MMZJB_CEDULALDF_63438",
 				"LBL_MMZJB_GUARDARLZ_91123",
+				"LBL_MMZJB_IDCLIENTE_61097",
 				"LBL_MMZJB_NACIONAII_27843",
 				"LBL_MMZJB_NOMBREKRP_59149",
-				"LBL_MMZJB_TELEFONOO_68649"
+				"LBL_MMZJB_TELEFONOO_68649",
+				"MSG_MMZJB_CDULAINIL_83825",
+				"MSG_MMZJB_TELEFONOO_70062"
 			],
 			"queries": {
 			},

@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component enabled="true" name="com.cobiscorp.cobis.mmzjb.customevents.form.T_MMZJBOCOGRIDN_472_FormEventCECM_010CM_TMMZJBOC_9TM_335">
+        <implementation class="com.cobiscorp.cobis.mmzjb.customevents.form.T_MMZJBOCOGRIDN_472_FormEventCECM_010CM_TMMZJBOC_9TM_335"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.builder.FormEventBuilder"/>
+        </service>
+        <property name="task.module" type="String" value="MMZJB"/>
+        <property name="task.submodule" type="String" value="SSMMJ"/>
+        <property name="task.id" type="String" value="T_MMZJBOCOGRIDN_472"/>
+        <property name="task.version" type="String" value="1.0.0"/>
+        <property name="eventId" type="String" value="CECM_010CM_TMMZJBOC_9TM_335"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.mmzjb.customevents.form.T_MMZJBOCOGRIDN_472_FormEventCECM_010CM_TMMZJBOC_9TM_335"/>
+        <reference name="iExecuteCommandCM_TMMZJBOC_9TM" interface="com.cobiscorp.designer.api.customization.IExecuteCommand" cardinality="1..1" policy="dynamic" target="(&amp;(task.module=MMZJB)(task.submodule=SSMMJ)(task.id=T_MMZJBOCOGRIDN_472)(task.version=1.0.0)(task.controlId=CM_TMMZJBOC_9TM))" bind="setiExecuteCommandCM_TMMZJBOC_9TM" unbind="unsetiExecuteCommandCM_TMMZJBOC_9TM"/>
+        <reference name="bLI1532_bli_updatepersona" interface="com.cobiscorp.designer.bli.api.IBLIExecutor" cardinality="1..1" policy="static" target="(bli.id=BLI1532_bli_updatepersona)" bind="setBLI1532_bli_updatepersona" unbind="unsetBLI1532_bli_updatepersona"/>
+    </scr:component>
     <scr:component enabled="true" name="com.cobiscorp.cobis.mmzjb.customevents.form.T_MMZJBOCOGRIDN_472_FormEventCECM_010CM_TMMZJBOC_SC6_924">
         <implementation class="com.cobiscorp.cobis.mmzjb.customevents.form.T_MMZJBOCOGRIDN_472_FormEventCECM_010CM_TMMZJBOC_SC6_924"/>
         <service servicefactory="false">
@@ -26,5 +40,19 @@
         <property name="service.pid" value="com.cobiscorp.cobis.mmzjb.customevents.form.T_MMZJBTFBVPWTC_111_FormEventCECM_010CM_TMMZJBTF_J1T_597"/>
         <reference name="iExecuteCommandCM_TMMZJBTF_J1T" interface="com.cobiscorp.designer.api.customization.IExecuteCommand" cardinality="1..1" policy="dynamic" target="(&amp;(task.module=MMZJB)(task.submodule=SSMMJ)(task.id=T_MMZJBTFBVPWTC_111)(task.version=1.0.0)(task.controlId=CM_TMMZJBTF_J1T))" bind="setiExecuteCommandCM_TMMZJBTF_J1T" unbind="unsetiExecuteCommandCM_TMMZJBTF_J1T"/>
         <reference name="bLI6154_bli_cliente" interface="com.cobiscorp.designer.bli.api.IBLIExecutor" cardinality="1..1" policy="static" target="(bli.id=BLI6154_bli_cliente)" bind="setBLI6154_bli_cliente" unbind="unsetBLI6154_bli_cliente"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.mmzjb.customevents.form.T_MMZJBTFBVPWTC_111_FormEventCECM_010CM_TMMZJBTF_ZS1_185">
+        <implementation class="com.cobiscorp.cobis.mmzjb.customevents.form.T_MMZJBTFBVPWTC_111_FormEventCECM_010CM_TMMZJBTF_ZS1_185"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.builder.FormEventBuilder"/>
+        </service>
+        <property name="task.module" type="String" value="MMZJB"/>
+        <property name="task.submodule" type="String" value="SSMMJ"/>
+        <property name="task.id" type="String" value="T_MMZJBTFBVPWTC_111"/>
+        <property name="task.version" type="String" value="1.0.0"/>
+        <property name="eventId" type="String" value="CECM_010CM_TMMZJBTF_ZS1_185"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.mmzjb.customevents.form.T_MMZJBTFBVPWTC_111_FormEventCECM_010CM_TMMZJBTF_ZS1_185"/>
+        <reference name="iExecuteCommandCM_TMMZJBTF_ZS1" interface="com.cobiscorp.designer.api.customization.IExecuteCommand" cardinality="1..1" policy="dynamic" target="(&amp;(task.module=MMZJB)(task.submodule=SSMMJ)(task.id=T_MMZJBTFBVPWTC_111)(task.version=1.0.0)(task.controlId=CM_TMMZJBTF_ZS1))" bind="setiExecuteCommandCM_TMMZJBTF_ZS1" unbind="unsetiExecuteCommandCM_TMMZJBTF_ZS1"/>
+        <reference name="bLI3462_bli_update_cliente" interface="com.cobiscorp.designer.bli.api.IBLIExecutor" cardinality="1..1" policy="static" target="(bli.id=BLI3462_bli_update_cliente)" bind="setBLI3462_bli_update_cliente" unbind="unsetBLI3462_bli_update_cliente"/>
     </scr:component>
 </components>
