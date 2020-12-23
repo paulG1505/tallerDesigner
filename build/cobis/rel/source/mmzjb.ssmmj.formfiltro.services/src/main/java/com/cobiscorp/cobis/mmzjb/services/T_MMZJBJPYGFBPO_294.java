@@ -1,6 +1,6 @@
 /*
  * Archivo: T_MMZJBJPYGFBPO_294.java
- * Fecha: 2020-12-22T19:19:36Z
+ * Fecha: 2020-12-22T22:49:49Z
  *
  * Esta aplicacion es parte de los paquetes bancarios propiedad de COBISCORP.
  * Su uso no autorizado queda expresamente prohibido asi como cualquier
@@ -60,6 +60,34 @@ import com.cobiscorp.designer.api.managers.EventManager;
 	cardinality = ReferenceCardinality.OPTIONAL_MULTIPLE, 
 	policy=ReferencePolicy.DYNAMIC,
 	target="(&(view.id=VW_FILTROSPBD_328)(view.version=1.0.0))")
+,@Reference (name="QV_GV85_LBM45",
+	referenceInterface=QueryViewEventBuilder.class,
+	bind="addQueyViewEventBuilder",
+	unbind="removeQueyViewEventBuilder",
+	cardinality = ReferenceCardinality.OPTIONAL_MULTIPLE, 
+	policy=ReferencePolicy.DYNAMIC,
+	target="(queryView.id=QV_GV85_LBM45)")
+,@Reference (name="QV_TM23_NKO34",
+	referenceInterface=QueryViewEventBuilder.class,
+	bind="addQueyViewEventBuilder",
+	unbind="removeQueyViewEventBuilder",
+	cardinality = ReferenceCardinality.OPTIONAL_MULTIPLE, 
+	policy=ReferencePolicy.DYNAMIC,
+	target="(queryView.id=QV_TM23_NKO34)")
+,@Reference(name="Q_CLIEENNT_KK23",
+    referenceInterface = QueryEventBuilder.class,
+    bind = "addQueryEventBuilder", 
+    unbind = "removeQueryEventBuilder", 
+    cardinality = ReferenceCardinality.OPTIONAL_MULTIPLE, 
+    policy=ReferencePolicy.DYNAMIC,
+    target="(&(query.id=Q_CLIEENNT_KK23)(query.version=1.0.0))")
+,@Reference(name="Q_PERSANOO_FF85",
+    referenceInterface = QueryEventBuilder.class,
+    bind = "addQueryEventBuilder", 
+    unbind = "removeQueryEventBuilder", 
+    cardinality = ReferenceCardinality.OPTIONAL_MULTIPLE, 
+    policy=ReferencePolicy.DYNAMIC,
+    target="(&(query.id=Q_PERSANOO_FF85)(query.version=1.0.0))")
 ,@Reference(name="LoadCatalogCobis",
 	referenceInterface=ILoadCatalogCobis.class, 
 	bind = "addLoadCatalogCobis", 

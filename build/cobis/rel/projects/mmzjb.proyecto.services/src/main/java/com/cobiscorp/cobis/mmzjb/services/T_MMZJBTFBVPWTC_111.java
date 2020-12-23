@@ -1,6 +1,6 @@
 /*
  * Archivo: T_MMZJBTFBVPWTC_111.java
- * Fecha: 2020-12-22T19:20:10Z
+ * Fecha: 2020-12-22T22:50:26Z
  *
  * Esta aplicacion es parte de los paquetes bancarios propiedad de COBISCORP.
  * Su uso no autorizado queda expresamente prohibido asi como cualquier

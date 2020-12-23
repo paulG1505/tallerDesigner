@@ -17,4 +17,13 @@
         <property name="query.version" type="String" value="1.0.0"/>
         <property name="service.pid" value="com.cobiscorp.cobis.mmzjb.customevents.impl.query.executequery.PersonaQuery_Q_PERSANOO_FF85"/>
     </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.mmzjb.customevents.impl.query.executequery.ProspectoQuery_Q_PROSPCCT_UB39">
+        <implementation class="com.cobiscorp.cobis.mmzjb.customevents.impl.query.executequery.ProspectoQuery_Q_PROSPCCT_UB39"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.customization.IExecuteQuery"/>
+        </service>
+        <property name="query.id" type="String" value="Q_PROSPCCT_UB39"/>
+        <property name="query.version" type="String" value="1.0.0"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.mmzjb.customevents.impl.query.executequery.ProspectoQuery_Q_PROSPCCT_UB39"/>
+    </scr:component>
 </components>

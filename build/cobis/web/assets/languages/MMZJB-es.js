@@ -5,6 +5,7 @@
 		"LBL_MMZJB_APELLIDOO_38493": "Apellido",
 		"LBL_MMZJB_CEDULALDF_63438": "Cedula",
 		"LBL_MMZJB_ESTADOCVL_93676": "Estado Civil",
+		"LBL_MMZJB_ESTADOVVV_58193": "Estado",
 		"LBL_MMZJB_FILTROSPO_66051": "Filtro",
 		"LBL_MMZJB_GENEROVWQ_11955": "Genero",
 		"LBL_MMZJB_GUARDARLZ_91123": "Guardar",
@@ -20,6 +21,7 @@
 		"LBL_MMZJB_REGISTRRR_30298": "Registro Persona",
 		"LBL_MMZJB_REGISTRSN_72506": "Registrar Persona",
 		"LBL_MMZJB_TELEFONOO_68649": "Telefono",
+		"LBL_MMZJB_TIPOBVQSH_32352": "Tipo",
 		"MSG_MMZJB_CDULAINIL_83825": "c\u00e9dula inv\u00e1lida",
 		"MSG_MMZJB_NUMEROINO_39406": "Numero Incorrecto",
 		"MSG_MMZJB_TELEFONOO_70062": "Telefono no valido"

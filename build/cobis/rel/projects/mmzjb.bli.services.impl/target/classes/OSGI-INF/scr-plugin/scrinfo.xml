@@ -26,6 +26,15 @@
         <property name="bli.id" type="String" value="BLI5163_bli_ingresopersona" private="false"/>
         <property name="service.pid" value="com.cobiscorp.cobis.mmzjb.bli.services.impl.BLI5163_bli_ingresopersona" private="false"/>
     </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.mmzjb.bli.services.impl.BLI5278_bli_tipob">
+        <implementation class="com.cobiscorp.cobis.mmzjb.bli.services.impl.BLI5278_bli_tipob"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.bli.api.IBLIExecutor"/>
+        </service>
+        <property name="task.module" type="String" value="MMZJB" private="false"/>
+        <property name="bli.id" type="String" value="BLI5278_bli_tipob" private="false"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.mmzjb.bli.services.impl.BLI5278_bli_tipob" private="false"/>
+    </scr:component>
     <scr:component enabled="true" name="com.cobiscorp.cobis.mmzjb.bli.services.impl.BLI5776_cli_consulta_cliente">
         <implementation class="com.cobiscorp.cobis.mmzjb.bli.services.impl.BLI5776_cli_consulta_cliente"/>
         <service servicefactory="false">
@@ -52,5 +61,14 @@
         <property name="task.module" type="String" value="MMZJB" private="false"/>
         <property name="bli.id" type="String" value="BLI6154_bli_cliente" private="false"/>
         <property name="service.pid" value="com.cobiscorp.cobis.mmzjb.bli.services.impl.BLI6154_bli_cliente" private="false"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.mmzjb.bli.services.impl.BLI7158_bli_tipoa">
+        <implementation class="com.cobiscorp.cobis.mmzjb.bli.services.impl.BLI7158_bli_tipoa"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.bli.api.IBLIExecutor"/>
+        </service>
+        <property name="task.module" type="String" value="MMZJB" private="false"/>
+        <property name="bli.id" type="String" value="BLI7158_bli_tipoa" private="false"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.mmzjb.bli.services.impl.BLI7158_bli_tipoa" private="false"/>
     </scr:component>
 </components>

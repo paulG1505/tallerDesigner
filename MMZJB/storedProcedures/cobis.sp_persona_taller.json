@@ -114,6 +114,11 @@
 				"dataType": "int",
 				"direction": "in",
 				"name": "@i_id"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_estado"
 			}
 		],
 		"queries": [
@@ -127,6 +132,34 @@
 				],
 				"editMode": false,
 				"queryText": "SELECT \"id\"=pe_id,\r\n              \"nombre\"=pe_nombre,\r\n              \"apellido\"=pe_apellido,\r\n              \"telefono\"=pe_telefono\r\n              FROM"
+			},
+			{
+				"_idQuery": "99e940d8-2b77-43e2-a2c5-4684f7cce681",
+				"columns": [
+					"id",
+					"nombre",
+					"apellido",
+					"telefono",
+					"estado",
+					"Tipo",
+					"fechaI"
+				],
+				"editMode": false,
+				"queryText": "SELECT"
+			},
+			{
+				"_idQuery": "6db94a0b-1f86-4860-92f6-22032f0268b0",
+				"columns": [
+					"id",
+					"nombre",
+					"apellido",
+					"telefono",
+					"estado",
+					"Tipo",
+					"fechaI"
+				],
+				"editMode": false,
+				"queryText": "SELECT"
 			}
 		],
 		"variables": [

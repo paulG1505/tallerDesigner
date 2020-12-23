@@ -1,12 +1,36 @@
 {
 	"entities": [
 		{
+			"entityId": "EN_CLIENTEXN_689",
+			"isContextEntity": null,
+			"moduleId": "MMZJB",
+			"related": false
+		},
+		{
 			"entityId": "EN_FILTROBRU_224",
+			"isContextEntity": null,
+			"moduleId": "MMZJB",
+			"related": false
+		},
+		{
+			"entityId": "EN_PERSONAHF_537",
 			"isContextEntity": null,
 			"moduleId": "MMZJB",
 			"related": false
 		}
 	],
 	"queries": [
+		{
+			"moduleId": "MMZJB",
+			"queryId": "Q_CLIEENNT_KK23",
+			"related": false,
+			"subModuleId": "SSMMJ"
+		},
+		{
+			"moduleId": "MMZJB",
+			"queryId": "Q_PERSANOO_FF85",
+			"related": false,
+			"subModuleId": "SSMMJ"
+		}
 	]
 }

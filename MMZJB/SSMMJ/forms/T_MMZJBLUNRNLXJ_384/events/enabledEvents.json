@@ -1,0 +1,18 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "Q_PROSPCCT_UB39",
+		"controlName": "ProspectoQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../MMZJB/SSMMJ/queries/Q_PROSPCCT_UB39.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "Prospecto",
+		"eventsType": "queryEventType"
+	}
+]

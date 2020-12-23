@@ -1,0 +1,62 @@
+<!-- Designer Generator v 7.2.0 - SPR 2020-20 08/10/2020 -->
+<html>
+ <head></head>
+ <body>
+  <div id="bc_VC_PROSPECTOO_276384" class="cb-breadcrumb" ng-if="!vc.isModal(this) && !vc.isDetailGrid(this) && !isDesignerInclude" ng-class="vc.viewState.VC_PROSPECTOO_276384.style"> 
+   <ol class="breadcrumb"> 
+    <li>Inicio</li> 
+    <li ng-repeat="breadcrumb in breadcrumbs.get() track by breadcrumb.path" ng-class="{ active: !$last }"> {{ breadcrumb.label | translate }} </li> 
+   </ol> 
+  </div> 
+  <!-- Inicio item VW_PROSPECTOO_970--> 
+  <div id="VC_PROSPECTOO_276384" ng-keydown="vc.viewState.keyDown($event)" class=" cb-view-container-root cb-view-container cb-group-layout" ng-class="{'container':!vc.isModal(this) && !vc.isDetailGrid(this) && !isDesignerInclude && true, 'container-fluid':vc.isModal(this) || isDesignerInclude || false, 'cb-invisible': !vc.loaded}"> 
+   <div id="G_PROSPECTTO_816970" ng-show="vc.viewState.G_PROSPECTTO_816970.visible" ng-class="vc.viewState.G_PROSPECTTO_816970.style" class="cb-group cb-group-simple"> 
+    <div kendo-validator="G_PROSPECTTO_816970" k-options="validatorOptions" id="G_PROSPECTTO_816970_VAL"> 
+     <div class="form-vertical"> 
+      <div class="row"> 
+       <div class="col-xs-4" ng-show="vc.viewState.VA_ESTADOLQYUSLQQB_287970.visible"> 
+        <div class="form-group" id="VA_ESTADOLQYUSLQQB_287970_DIV"> 
+         <label for="VA_ESTADOLQYUSLQQB_287970" title="{{vc.viewState.VA_ESTADOLQYUSLQQB_287970.label|translate:vc.viewState.VA_ESTADOLQYUSLQQB_287970.labelArgs}}" ng-show="vc.viewState.VA_ESTADOLQYUSLQQB_287970.visible" class="control-label">{{vc.viewState.VA_ESTADOLQYUSLQQB_287970.label|translate:vc.viewState.VA_ESTADOLQYUSLQQB_287970.labelArgs}}</label> 
+         <div class="cb-control"> 
+          <select id="VA_ESTADOLQYUSLQQB_287970" kendo-ext-combo-box="comboBox.VA_ESTADOLQYUSLQQB_287970" k-index="0" k-auto-bind="true" name="FiltroBusquedaPersona_filtro" k-ng-model="vc.model.FiltroBusquedaPersona.filtro" data-value-primitive="true" ng-disabled="vc.viewState.VA_ESTADOLQYUSLQQB_287970.disabled || vc.viewState.VA_ESTADOLQYUSLQQB_287970.disabledingroup" ng-show="vc.viewState.VA_ESTADOLQYUSLQQB_287970.visible" ng-readonly="vc.viewState.VA_ESTADOLQYUSLQQB_287970.readonly" ng-class="vc.viewState.VA_ESTADOLQYUSLQQB_287970.style" k-data-source="vc.catalogs.VA_ESTADOLQYUSLQQB_287970" k-no-data-template="''" k-ng-delay="vc.afterInitData" k-data-text-field="'value'" k-data-value-field="'code'" k-template="vc.viewState.VA_ESTADOLQYUSLQQB_287970.template" data-cobis-group="Group,G_PROSPECTTO_816970,0" data-validation-code="{{vc.viewState.VA_ESTADOLQYUSLQQB_287970.validationCode}}"></select> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="col-xs-4" ng-show="vc.viewState.VA_TIPOVMWPVQFRMDM_590970.visible"> 
+        <div class="form-group" id="VA_TIPOVMWPVQFRMDM_590970_DIV"> 
+         <label for="VA_TIPOVMWPVQFRMDM_590970" title="{{vc.viewState.VA_TIPOVMWPVQFRMDM_590970.label|translate:vc.viewState.VA_TIPOVMWPVQFRMDM_590970.labelArgs}}" ng-show="vc.viewState.VA_TIPOVMWPVQFRMDM_590970.visible" class="control-label">{{vc.viewState.VA_TIPOVMWPVQFRMDM_590970.label|translate:vc.viewState.VA_TIPOVMWPVQFRMDM_590970.labelArgs}}</label> 
+         <div class="cb-control"> 
+          <select id="VA_TIPOVMWPVQFRMDM_590970" kendo-ext-combo-box="comboBox.VA_TIPOVMWPVQFRMDM_590970" k-index="0" k-auto-bind="true" name="FiltroBusquedaPersona_tipo" k-ng-model="vc.model.FiltroBusquedaPersona.tipo" data-value-primitive="true" ng-disabled="vc.viewState.VA_TIPOVMWPVQFRMDM_590970.disabled || vc.viewState.VA_TIPOVMWPVQFRMDM_590970.disabledingroup" ng-show="vc.viewState.VA_TIPOVMWPVQFRMDM_590970.visible" ng-readonly="vc.viewState.VA_TIPOVMWPVQFRMDM_590970.readonly" ng-class="vc.viewState.VA_TIPOVMWPVQFRMDM_590970.style" k-data-source="vc.catalogs.VA_TIPOVMWPVQFRMDM_590970" k-no-data-template="''" k-ng-delay="vc.afterInitData" k-data-text-field="'value'" k-data-value-field="'code'" k-template="vc.viewState.VA_TIPOVMWPVQFRMDM_590970.template" data-cobis-group="Group,G_PROSPECTTO_816970,0" data-validation-code="{{vc.viewState.VA_TIPOVMWPVQFRMDM_590970.validationCode}}"></select> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="col-xs-4" ng-show="vc.viewState.VA_VAIMAGEBUTTONNN_546970.visible"> 
+        <div class="form-group"> 
+         <label class="control-label">{{'&nbsp;'}}</label> 
+         <div class="cb-control"> 
+          <button id="VA_VAIMAGEBUTTONNN_546970" class="btn btn-default btn-block" ng-click="vc.executeQueryControl(vc.getRequestQuery_Q_PROSPCCT_UB39(),'',validator,false, false,'', false)" ng-disabled="vc.viewState.VA_VAIMAGEBUTTONNN_546970.disabled || vc.viewState.VA_VAIMAGEBUTTONNN_546970.disabledingroup" ng-show="vc.viewState.VA_VAIMAGEBUTTONNN_546970.visible" ng-class="vc.viewState.VA_VAIMAGEBUTTONNN_546970.style"> <span ng-class="vc.viewState.VA_VAIMAGEBUTTONNN_546970.imageId"></span> </button> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div id="G_PROSPECTTO_969970" ng-show="vc.viewState.G_PROSPECTTO_969970.visible" ng-class="vc.viewState.G_PROSPECTTO_969970.style" class="cb-group cb-group-simple"> 
+    <div kendo-validator="G_PROSPECTTO_969970" k-options="validatorOptions" id="G_PROSPECTTO_969970_VAL"> 
+     <div id="QV_BY39_XAS13" kendo-ext-grid="grids.QV_BY39_XAS13" k-data-source="vc.model.Prospecto" k-column-menu="false" k-sortable="false" k-editable="vc.grids.QV_BY39_XAS13.editable" k-toolbar="vc.grids.QV_BY39_XAS13.toolbar" k-resizable="false" k-groupable="false" k-reorderable="false" k-filterable="false" k-scrollable="false" k-selectable="false" k-data-bound="vc.grids.QV_BY39_XAS13.events.dataBound" k-columns="vc.grids.QV_BY39_XAS13.columns" k-cancel="vc.grids.QV_BY39_XAS13.events.cancel" k-edit="vc.grids.QV_BY39_XAS13.events.edit" ng-class="vc.viewState.QV_BY39_XAS13.style" k-ng-delay="vc.afterInitData"></div> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- Fin item VW_PROSPECTOO_970--> 
+  <div class="cb-view-loading cb-view-loading-preload"> 
+   <div class="cb-view-loading-icon"></div> 
+  </div> 
+  <div class="cb-navbar cb-navbar-bottom" ng-if="vc.childVc && vc.autoSyncNavigation"> 
+   <nav ng-class="vc.getCssClass('',['navbar', 'navbar-default'] ,{'navbar-fixed-bottom': (!vc.isModal(this) && !vc.isDetailGrid(this))})"> 
+    <button id="T_MMZJBLUNRNLXJ_384_ACCEPT" class="btn btn-primary navbar-btn" ng-click="vc.accept(validator, $event, false, 'VC_PROSPECTOO_276384')" ng-disabled="vc.viewState.T_MMZJBLUNRNLXJ_384_ACCEPT.disabled || vc.viewState.T_MMZJBLUNRNLXJ_384_ACCEPT.disabledingroup" ng-show="vc.viewState.T_MMZJBLUNRNLXJ_384_ACCEPT.visible" ng-class="vc.viewState.T_MMZJBLUNRNLXJ_384_ACCEPT.style">{{'DSGNR.SYS_DSGNR_LBLACEPT0_00007'|translate}}</button> 
+    <button id="T_MMZJBLUNRNLXJ_384_CANCEL" class="btn btn-default navbar-btn" ng-click="vc.cancel(validator, $event)" ng-disabled="vc.viewState.T_MMZJBLUNRNLXJ_384_CANCEL.disabled || vc.viewState.T_MMZJBLUNRNLXJ_384_CANCEL.disabledingroup" ng-show="vc.viewState.T_MMZJBLUNRNLXJ_384_CANCEL.visible" ng-class="vc.viewState.T_MMZJBLUNRNLXJ_384_CANCEL.style">{{'DSGNR.SYS_DSGNR_LBLCANCEL_00006'|translate}}</button> 
+   </nav> 
+  </div>
+ </body>
+</html>

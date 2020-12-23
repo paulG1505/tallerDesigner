@@ -1,6 +1,6 @@
 /*
  * Archivo: Q_CLIEENNT_KK23_QueryEvent.java
- * Fecha: 22/12/2020 14:19:36
+ * Fecha: 22/12/2020 17:49:49
  *
  * Esta aplicacion es parte de los paquetes bancarios propiedad de COBISCORP.
  * Su uso no autorizado queda expresamente prohibido asi como cualquier

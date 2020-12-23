@@ -12,5 +12,12 @@
 				"$ref": "../SSMMJ/queries/Q_PERSANOO_FF85.json#"
 			}
 		}
+	},
+	"EN_PROSPECOT_671": {
+		"queries": {
+			"Q_PROSPCCT_UB39": {
+				"$ref": "../SSMMJ/queries/Q_PROSPCCT_UB39.json#"
+			}
+		}
 	}
 }

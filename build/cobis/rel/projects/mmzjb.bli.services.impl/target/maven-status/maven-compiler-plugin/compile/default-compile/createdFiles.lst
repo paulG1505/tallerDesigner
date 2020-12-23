@@ -3,4 +3,6 @@ com\cobiscorp\cobis\mmzjb\bli\services\impl\BLI5776_cli_consulta_cliente.class
 com\cobiscorp\cobis\mmzjb\bli\services\impl\BLI5163_bli_ingresopersona.class
 com\cobiscorp\cobis\mmzjb\bli\services\impl\BLI6154_bli_cliente.class
 com\cobiscorp\cobis\mmzjb\bli\services\impl\BLI1532_bli_updatepersona.class
+com\cobiscorp\cobis\mmzjb\bli\services\impl\BLI5278_bli_tipob.class
+com\cobiscorp\cobis\mmzjb\bli\services\impl\BLI7158_bli_tipoa.class
 com\cobiscorp\cobis\mmzjb\bli\services\impl\BLI3462_bli_update_cliente.class

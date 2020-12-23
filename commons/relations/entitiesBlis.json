@@ -59,6 +59,23 @@
 				],
 				"returnEntity": [
 					{
+						"entityId": "EN_PROSPECOT_671",
+						"moduleId": "MMZJB",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI5278_bli_tipob",
+			"nameBli": "BLI_TipoB"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
 						"entityId": "EN_CLIENTEXN_689",
 						"moduleId": "MMZJB",
 						"related": false
@@ -101,6 +118,23 @@
 			},
 			"idBli": "BLI6154_bli_cliente",
 			"nameBli": "BLI_Cliente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_PROSPECOT_671",
+						"moduleId": "MMZJB",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI7158_bli_tipoa",
+			"nameBli": "BLI_TipoA"
 		}
 	]
 }

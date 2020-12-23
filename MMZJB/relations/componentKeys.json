@@ -8,6 +8,9 @@
 		},
 		"EN_PERSONAHF_537": {
 			"name": "Persona"
+		},
+		"EN_PROSPECOT_671": {
+			"name": "Prospecto"
 		}
 	},
 	"SSMMJ": {
@@ -16,6 +19,9 @@
 		"Forms": {
 			"T_MMZJBJPYGFBPO_294": {
 				"name": "FormFiltro"
+			},
+			"T_MMZJBLUNRNLXJ_384": {
+				"name": "FormProspecto"
 			},
 			"T_MMZJBOCOGRIDN_472": {
 				"name": "FormPersona"
@@ -36,6 +42,9 @@
 			},
 			"Q_PERSANOO_FF85": {
 				"name": "PersonaQuery"
+			},
+			"Q_PROSPCCT_UB39": {
+				"name": "ProspectoQuery"
 			}
 		},
 		"SubForms": {
